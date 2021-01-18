@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="nakamura" handle="Nekomura" firstName="Laura" lastName="Nakamura" isMale="false" forceHasNeopals="true">
+ 
+  
+
+<Birthplace name="Vancouver" />
+  
+  <Degrees>
+    <Degree uni="Halem University" gpa="3.6">Bachelor of Geology</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>Penicillin</Allergies>
+    <Perscription>Diphenhydramine</Perscription>
+  </Medical>
+  
+
+  <DOB>11/07/1991 17:51:32</DOB>
+  
+  <Notes>Likes anime</Notes>
+</Person>
