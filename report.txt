@@ -1,0 +1,62 @@
+Errors Found. Writing report to Extensions/hellSec/report.txt
+
+Mission Errors for Extensions/hellSec/Missions/MissionHub/ClockMission/ClockMission.xml:
+Error running start function loadConditionalActions:ClockAction.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file "/Users/newmanfamily/Library/Application
+Support/Steam/steamapps/common/Hacknet/Hacknet.app/Contents/MacOS/Extensions/hellSec/Cl
+ockAction.xml".
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+"/Users/newmanfamily/Library/Application
+Support/Steam/steamapps/common/Hacknet/Hacknet.app/Contents/MacOS/Extensions/hellSec/Cl
+ockAction.xml".
+
+File name: '/Users/newmanfamily/Library/Application
+Support/Steam/steamapps/common/Hacknet/Hacknet.app/Contents/MacOS/Extensions/hellSec/Cl
+ockAction.xml'
+
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access,
+  FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in
+  <filename unknown>:0
+
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access,
+  FileShare share) [0x00000] in <filename unknown>:0
+
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor
+  (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
+  OSobj) [0x00000] in <filename unknown>:0
+
+  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.TestExtensionMission (System.Object mission, System.String
+  filepath, System.Object os) [0x00000] in <filename unknown>:0
+ 
+ 
+ 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access,
+  FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in
+  <filename unknown>:0
+
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access,
+  FileShare share) [0x00000] in <filename unknown>:0
+
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor
+  (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <filename unknown>:0 
+  at Hacknet.RunnableConditionalActions.LoadIntoOS (System.String filepath, System.Object
+  OSobj) [0x00000] in <filename unknown>:0
+
+  at Hacknet.MissionFunctions.runCommand (Int32 value, System.String name) [0x00000] in
+  <filename unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.TestExtensionMission (System.Object mission, System.String
+  filepath, System.Object os) [0x00000] in <filename unknown>:0

@@ -1,0 +1,59 @@
+<HacknetExtension>
+	<Name>Hacknet: hellSec</Name>
+	<AllowSaves>true</AllowSaves>
+
+	<StartingVisibleNodes></StartingVisibleNodes>
+  
+ 
+  <StartingMission>Missions/IntroMission.xml</StartingMission>
+  <Description>You have been invited into hellSec, a notorious hacker group bent on creating chaos and helping out citizens in need.</Description>
+  
+
+  <Faction>Factions/hellSec.xml</Faction>
+
+  <StartsWithTutorial>False</StartsWithTutorial>
+  
+ 
+  <HasIntroStartup>true</HasIntroStartup>
+  
+  <StartingTheme>HacknetPurple</StartingTheme>
+  <!-- 
+  Base Themes are named:
+  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
+  -->
+  
+ 
+  <IntroStartupSong>The_Quickening</IntroStartupSong>
+
+
+  <WorkshopDescription>Join hellSec, a hacker group hell-bent on causing chaos and helping out some people along the way.
+
+Navigate your way through complex networks, solve puzzling puzzles, create disarray for your targets and help people with their math homework!
+
+  Featuring:
+  -A new storyline with new characters!
+  -New servers!
+  -Some new themes!
+  -18 missions to complete!
+  -New music! (And familiar tunes too!)
+  -Approximately 2-3 hours of gameplay!
+
+Non-Steam Version Download: http://www.mediafire.com/file/3kmw83no0ih43dq/hellSec.zip
+
+UPDATE 1.1:
+
+Tick tock, goes the clock...
+  </WorkshopDescription>
+
+  <WorkshopLanguage>English</WorkshopLanguage>
+
+  <WorkshopVisibility>0</WorkshopVisibility>
+
+  <WorkshopTags>Extension</WorkshopTags>
+
+  <WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
+
+  <WorkshopPublishID>931264334</WorkshopPublishID>
+
+
+</HacknetExtension>
