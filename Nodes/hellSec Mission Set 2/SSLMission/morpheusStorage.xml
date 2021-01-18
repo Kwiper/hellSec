@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusStorage" 
+          name="Morpheus Storage Hub" 
+          ip="168.139.133.7"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="FLCPC1" 
+          type="2" >
+
+<adminPass pass="artemis" />
+<ports>21, 22, 25, 1433, 80</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<firewall level="6" solution="REDSUN" additionalTime="0.1"/> 
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="bin/Z3r0" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin/Z3r0" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin/Unreleased" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin/Unreleased" name="SSLTrojan.txt">Usage: 
+Execute SSLTrojan followed by the port number. Choose an opened HTTP, FTP, RTSP or SSH port as a tunnel with "-" before the first letter of the protocol.
+Follow that with the port number of the tunnel.
+
+Example: SSLTrojan 443 -s 22 (SSH)
+
+-w = HTTP
+-s = SSH
+-f = FTPSprint
+-r = RTSP</file>
+
+<WhitelistAuthenticatorDaemon Remote="morpheusWhitelist"/>
+
+</Computer>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultTrial3"
+          name="Trial of Body"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Alchemist"
+          type="4" >
+
+<adminPass pass="WaterAndEarth" />
+<ports>21, 22, 25, 80, 443</ports>
+<proxy time="1" />
+<portsForCrack val="5" />
+<firewall level="4" solution="SALT" additionalTime="3.0"/>
+<trace time="80" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="cultTrialRepo" />
+
+<encryptedFile path="home" name="???.dec" extension=".txt" ip="192.168.1.1" header="???" pass="Salt">
+__1.__7._3_.2__</encryptedFile>
+
+</Computer>

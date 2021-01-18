@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusHub"
+          name="Morpheus Hub Node"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="burlyman" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="120" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="morphProxy1" />
+<dlink target="morphProxy5" />
+<dlink target="morphProxy8" />
+<dlink target="morphProxy11" />
+
+<positionNear target="morphProxy1" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="morphProxy5" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="morphProxy8" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="morphProxy11" position="1" total="3" extraDistance="0.1" force="false"/>
+
+<CustomConnectDisplayDaemon />
+
+</Computer> 

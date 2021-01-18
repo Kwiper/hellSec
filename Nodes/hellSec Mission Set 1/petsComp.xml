@@ -1,0 +1,25 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+
+<Computer id="petComp"
+          name="Paw-some Pets"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCLaptop"
+          type="4" >
+
+<adminPass pass="pets4lyfe" />
+
+<ports>22,21,25,80</ports>
+<portsForCrack val="3" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="petSecu" />
+<positionNear target="petSecu" position="2" total="3" extraDistance="0.1"/>
+
+<file path="home" name="Employee_Rules.txt">All employees:
+Do NOT play with the animals. They are pets to be sold to other owners. 
+Do NOT let the animals get attached to you. 
+Feed the animals as per the Paw-some Pets Manual. Nothing less, nothing more.
+Failiure to comply with these rules will result in your immediate eviction.</file>
+
+</Computer>

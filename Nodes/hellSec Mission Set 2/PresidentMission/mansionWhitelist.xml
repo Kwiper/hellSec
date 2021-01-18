@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mansionWhitelist"
+          name="White Mansion Whitelist Server"
+          ip="111.26.239.31"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="3" >
+
+<adminPass pass="whitelist" />
+
+<ports>22, 25, 21, 1433</ports>
+<proxy time="2" />
+<portsForCrack val="3" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/> 
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ebcVault"
+          name="EBC Vault Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="doctorfunkenstein" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<portsForCrack val="1000" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<!--Professor What -->
+<file path="Shows/Professor_What/Season_10" name="Ep_1_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_2_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_3_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_4_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_5_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_6_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_7_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_8_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_9_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_10_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_11_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_12_Script.docx">#BINARY#</file>
+<file path="Shows/Professor_What/Season_10" name="Ep_FINALE_Script.docx">#BINARY#</file>
+
+<!--Holmes-->
+<file path="Shows/Holmes/Series_4" name="Ep_1_Script.docx">#BINARY#</file>
+<file path="Shows/Holmes/Series_4" name="Ep_2_Script.docx">#BINARY#</file>
+<file path="Shows/Holmes/Series_4" name="Ep_FINALE_Script.docx">#BINARY#</file>
+
+<!--Spoops-->
+<file path="Shows/Spoops/Season_11" name="Ep_1_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_2_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_3_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_4_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_5_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_6_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_7_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_8_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_9_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_10_Script.docx">#BINARY#</file>
+<file path="Shows/Spoops/Season_11" name="Ep_FINALE_Script.docx">#BINARY#</file>
+
+<!--Torched Wood-->
+<file path="Shows/Torched_Wood/Season_5" name="Ep_1_Script.docx">#BINARY#</file>
+<file path="Shows/Torched_Wood/Season_5" name="Ep_2_Script.docx">#BINARY#</file>
+<file path="Shows/Torched_Wood/Season_5" name="Ep_3_Script.docx">#BINARY#</file>
+<file path="Shows/Torched_Wood/Season_5" name="Ep_4_Script.docx">#BINARY#</file>
+<file path="Shows/Torched_Wood/Season_5" name="Ep_5_Script.docx">#BINARY#</file>
+<file path="Shows/Torched_Wood/Season_5" name="Ep_6_Script.docx">#BINARY#</file>
+
+<WhitelistAuthenticatorDaemon Remote="ebcWhitelist" />
+
+</Computer>

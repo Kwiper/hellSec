@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quantumProxy1"
+          name="Quantum Proxy Node 1"
+          ip="239.165.22.97"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="1" >
+
+<adminPass pass="spiderweb" />
+
+<ports>22, 21, 1433</ports>
+<portsForCrack val="3" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="quantumWeb" />
+
+</Computer>

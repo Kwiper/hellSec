@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Core"
+          name="Z3r0 System"
+          ip="29.192.102.51"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="Project_M" />
+<ports>21, 22, 25, 80, 1433, 6881, 443, 554</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<firewall level="8" solution="PROJECTM"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="z3r0Backup" />
+
+<file path="Project_M" name="Project_M#001">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#004">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#025">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#081">#BINARYSMALL#</file>
+<file path="Project_M" name="Matrix.exe">#SECURITYTRACER_PROGRAM#</file>
+
+
+
+<file path="sys" name="Server.bin">Deleting this file will disable the entire system.</file>
+
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultTrial2"
+          name="Trial of Soul"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Alchemist"
+          type="4" >
+
+<adminPass pass="AirAndFire" />
+
+<ports>21, 80, 443</ports>
+<proxy time="4" />
+<portsForCrack val="3" />
+<firewall level="7" solution="SULPHUR" additionalTime="1.0"/>
+<trace time="80" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<Memory>
+<Data>
+<Block>4__._6_.2__.__0</Block>
+</Data>
+</Memory>
+
+</Computer>

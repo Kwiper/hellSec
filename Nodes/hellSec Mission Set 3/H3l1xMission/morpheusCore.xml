@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusCore"
+          name="Morpheus Core Server"
+          ip="77.192.59.971"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="J43G4R" />
+
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<portsForCrack val="7" />
+<trace time="120" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="Core" name="MorpheusCore.exe">#BINARY#</file>
+<file path="Core" name="MorpheusCore.txt">Deleting the core will corrupt the Morpheus System. DO NOT REMOVE THIS FILE</file>
+
+<WhitelistAuthenticatorDaemon Remote="morpheusWhitelist2"/>
+
+</Computer>

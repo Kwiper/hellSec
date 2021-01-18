@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bankComp"
+          name="Commercial Bank of the UFA Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="capitalismrules" />
+<ports>22, 25, 80, 443</ports>
+<proxy time="2" />
+<portsForCrack val="4" />
+
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home/Accounts/D.Leatrou" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/M.Wazowski" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/J.Rallison" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/A.Ferguson" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/M.Trobbiani" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/J.Stanford" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/T.Anderson" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/R.Rose" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/J.Stalvern" name="account.dat">#BINARY#</file>
+<file path="home/Accounts/D.Drump" name="account.dat">#BINARY#</file>
+
+    <Memory>
+     <Commands>
+        <Command>>connection from 239.165.22.97</Command>
+        <Command>cd home/Accounts/D.Leatrou</Command>
+        <Command>scp account.dat</Command>
+        <Command>cd /log</Command>
+        <Command>rm *</Command>
+        <Command>dc</Command>
+    </Commands>
+    <Data>
+        <Block>239.165.22.97</Block>
+    </Data>
+    </Memory>
+
+
+</Computer>

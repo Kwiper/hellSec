@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="macroWare"
+          name="Macrosoft Digital Warehouse"
+          ip="168.33.89.32"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="macrosoftNCC1701A" />
+
+<ports>21, 22, 25, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="1000" />
+<firewall level="10" solution="TECHNOLOGY" additionalTime="0.1"/>
+<trace time="100" />
+
+<admin type="progress" resetPassword="false" isSuper="false"/>
+<tracker />
+
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="MacrOSXProjectMBeta.dll">#BINARY#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+</Computer>

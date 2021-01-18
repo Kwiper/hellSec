@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomComp"
+          name="WannaDie Server Node"
+          ip="381.39.27.102"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="3" >
+
+<adminPass pass="IWannaCry" />
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<proxy time="2" />
+<portsForCrack val="7" />
+<firewall level="12" solution="EXPLOITATION"/>
+<trace time="200" />
+
+<encryptedFile path="home/Ransom/Beastdog" name="Checkmate.dec" extension=".aac" ip="72.472.291.94" header="Checkmate" pass="VX9LS312">
+#BINARY#</encryptedFile>
+<encryptedFile path="home/Ransom/Getflix" name="Orange_Is_The_New_White.dec" extension=".mp4" ip="192.168.1.1" header="Orange is the New White" pass="Vkjs102Sh">
+#BINARY#</encryptedFile>
+
+<eosDevice name="WannaDie ePad 3" id="wannaDieTab" icon="tablet" empty="true" passOverride="alpine">
+    <note>Ransom Pass 
+Checkmate - 28.381.59.28
+Orange is the New White - 29.58.182.49</note>
+</eosDevice>
+
+</Computer>
+

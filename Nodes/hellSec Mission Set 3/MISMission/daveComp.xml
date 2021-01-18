@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="daveComp"
+          name="Dave from MIS Laptop"
+          ip="49.192.592.29"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCLaptop"
+          type="2" >
+
+<adminPass pass="DaveFromMIS" />
+
+<ports>22, 25, 80, 443</ports>
+<portsForCrack val="2" />
+<trace time="100" />
+
+<file path="home" name="Introduction.txt">Hi there, my name is Dave from MIS. I help run IT here at MIS. 
+If you need any help with your computer, servers, just shoot me an email at MIS@mismail.com
+Dave from MIS is my name.</file>
+
+<file path="eos" name="eosDeviceSync.dat">#BINARY#</file>
+<eosDevice name="Dave from MIS ePhone 7" id="davePhone" icon="ePhone2" empty="true" passOverride="alpine">
+<note>Important IP 
+MIS1861</note>
+</eosDevice>
+
+</Computer>

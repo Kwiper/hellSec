@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="giygasChamber"
+          name="Chamber of Giygas"
+          ip="431.167.235.280"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="geigue" />
+<ports>21, 22, 25</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="Hub.txt">91.256.39.267</file>
+
+<LogoDaemon Name="Chamber of Giygas" ShowsTitle="true" TextColor="0, 220, 220, 200">
+CHAMBER 
+OF 
+GIYGAS 
+</LogoDaemon>
+</Computer>

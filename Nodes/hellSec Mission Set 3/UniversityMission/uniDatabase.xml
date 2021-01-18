@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic"
+          name="Universal Academic Database"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+
+<adminPass pass="Kn0wl3dg3" />
+<account username="Ortiz" password="Vx87oL12" type="ADMIN" />
+
+<ports>22, 25, 80, 1433, 443</ports>
+<proxy time="1" />
+<portsForCrack val="6" />
+<firewall level="8" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<academicDatabase />
+
+</Computer> 

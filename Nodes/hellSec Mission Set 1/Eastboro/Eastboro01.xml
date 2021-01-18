@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eastboro01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Durtis Hates Computers!">
+As said by the Holy Dible of Durtis, "Thou shalt not partake in otherworldly matters."
+These fandangled computery things ARE OTHERWORLDLY. THEY'RE LIKE GATEWAYS INTO THE SOUL FOR THEM ALIENS TO LOOK INTO OUR MINDS.
+JOIN ME, BROTHERS AND SISTERS, IN PRAYING FOR THE COMPUTERS TO GO AWAY.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

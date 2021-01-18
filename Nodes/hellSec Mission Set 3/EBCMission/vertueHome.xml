@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vertueHome"
+          name="Susan Vertue Home PC"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" >
+
+<adminPass pass="password" />
+<ports>22, 25, 443</ports>
+<proxy time="2" />
+<portsForCrack val="3" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+</Computer>

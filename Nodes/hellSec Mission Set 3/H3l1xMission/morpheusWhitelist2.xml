@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusWhitelist2"
+          name="Morpheus Whitelist Gen-2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="M0rph3usWh1t3l1st2" />
+<ports>21, 22, 25, 80, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<firewall level="10" solution="WH1T3L15T2"/>
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+<WhitelistAuthenticatorDaemon Remote="morpheusWhitelist3" />
+
+</Computer>

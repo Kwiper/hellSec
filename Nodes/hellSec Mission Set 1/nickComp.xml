@@ -1,0 +1,43 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="nickComp"
+          name="N.Smith Laptop"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1" >
+
+<adminPass pass="yomomma" />
+
+<ports>22,21,25,80</ports>
+
+<portsForCrack val="3" />
+
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="nickProxy" />
+
+<positionNear target="nickProxy" position="2" total="3" extraDistance="-0.2"/>
+
+<file path="home" name="hellSecInfo.docx">#BINARY#</file>
+<file path="home" name="Business_Homework.txt">
+And so I cry sometimes when I'm lying in bed
+Just to get it all out what's in my head
+And I, I'm feeling a little peculiar
+
+And so I wake in the morning and I step outside
+And I take a deep breath and get real high
+And I scream from the top of my lungs
+What's goin' on?
+
+And I say hey, yeah, yeah, yeah yay
+Hey, yay, yay
+I said hey, what's goin' on?
+
+And I say hey, yeah, yeah, yeah yay
+Hey, yay, yay
+I said hey, what's goin' on?
+</file>
+
+
+
+</Computer>

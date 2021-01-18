@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morphProxy8"
+          name="Morpheus Proxy Node 8"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="intimidationgame" />
+
+<ports>21, 25, 80, 1433</ports>
+<portsForCrack val="3" />
+<firewall level="7" solution="REDPILL"/>
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="morpheusHome" />
+
+</Computer>

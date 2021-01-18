@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quantumProxy3"
+          name="Quantum Proxy Node 3"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="1" >
+
+<adminPass pass="mechanics" />
+
+<ports>22, 21, 1433</ports>
+<portsForCrack val="1000" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+</Computer>

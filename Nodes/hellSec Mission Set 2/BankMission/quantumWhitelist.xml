@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quantumWhitelist" 
+          name="Quantum Whitelist" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+
+<adminPass pass="quantumloop" />
+<ports>21, 22, 25, 1433</ports>
+<portsForCrack val="3" />
+<trace time="80" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

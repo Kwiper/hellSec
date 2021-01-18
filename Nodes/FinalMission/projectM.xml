@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="projectM"
+          name="Project M"
+          ip="19.27.192.10"
+          security="5"
+          allowsDefaultBootModule="false"
+          type="4" >
+
+<adminPass pass="PRJ-M" />
+
+<ports>21, 22, 25, 80, 1433, 554, 443, 6881</ports>
+<proxy time="2" />
+<portsForCrack val="8" />
+<firewall level="8" solution="PROJECTM" additionalTime="0.5"/>
+<trace time="200" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="Project_M" name="Project_M.docx">Project M - Matrix
+Matrix, a project founded by Z3r0 and Morpheus, in conjunction with the United Federation Government.
+Matrix's goal was to enable ease of surveillance in all computers. Every model and OS since computers were first invented.</file>
+
+<file path="Project_M" name="Government_Influence.docx">The United Federation Government poured many resources into making this project a reality. They invested in many programmers to aid Z3r0 and Morpheus in their goal.
+However, soon the United Federation demanded too much of the development team. So Z3r0 and Morpheus decided to eliminate them from this project.</file>
+
+<file path="Project_M" name="Morpheus_Downfall.docx">After the creation of hellSec, Morpheus lost his trust in Z3r0. Z3r0 sent one of his own agents to steal from Morpheus, and Morpheus couldn't have that.
+Morpheus directly attacked two of Z3r0's accomplices, and thus a war between the two began. It was not long after that until Z3r0 eliminated Morpheus for good.</file>
+
+<file path="Project_M" name="Project_M_Now.docx">Project M continues stronger as ever, with only myself, Z3r0, at the helm of this project. My goal is no longer surveillance, however. It is infiltration.
+Infiltration of every single computer on this Earth. The entire world at my fingertips.</file>
+
+</Computer>

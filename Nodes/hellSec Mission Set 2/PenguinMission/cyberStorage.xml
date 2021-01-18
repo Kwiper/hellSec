@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cyberStorage"
+          name="Cyber-Security Agency Storage Server"
+          ip="197.235.36.11"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="CSAv4u17" />
+<ports>21, 22, 25, 1433, 80, 443</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<firewall level="7" solution="DECRYPT"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+ <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<file path="bin" name="DecPrograms.txt">Decypher allows you to decrypt files. Some files may require a password, so in order to decrypt those files, type the password after the file name.
+Example: Decypher asdf.dec 1234
+DECHead allows you to track where the encrypted file's source is
+Example: DECHead asdf.dec</file>
+
+</Computer>

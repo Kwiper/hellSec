@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ozpinHome"
+          name="Oscar Z. Home"
+          ip="148.46.97.2"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="2" >
+
+<adminPass pass="ozpin" />
+<ports>22, 21, 25, 443</ports>
+<portsForCrack val="2" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="eos" name="eosSyncLog.dat">#BINARY#</file>
+
+<eosDevice name="Oscar ePhone 8" id="ozpinPhone" empty="true" passOverride="alpine">
+    <mail username="OZPin@beacon.com" pass="oscar" />
+</eosDevice>
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lock2"
+          name="Lock 2"
+          ip="12.108.28.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="bJrMMy6YmyfM2Jf3" />
+<ports>25, 1433, 80</ports>
+<proxy time="3" />
+<portsForCrack val="3" />
+<firewall level="6"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<Memory>
+<Data>
+<Block>Gateway2</Block>
+</Data>
+</Memory>
+
+</Computer>

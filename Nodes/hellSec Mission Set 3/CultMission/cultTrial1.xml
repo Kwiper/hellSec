@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultTrial1"
+          name="Trial of Spirit"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Alchemist"
+          type="4" >
+
+<adminPass pass="WaterAndAir" />
+<ports>22, 1433, 443</ports>
+<proxy time="3" />
+<portsForCrack val="3" />
+<firewall level="7" solution="MERCURY" additionalTime="0.5"/>
+<trace time="110" />
+<admin type="basic" resetPassword="false" isSuper="false"/>
+
+
+
+<eosDevice name="Spirit" id="spiritTablet" icon="tablet" empty="true" passOverride="alpine">
+<note>???
+_3_.1__.__5._8_</note>
+</eosDevice>
+
+</Computer>

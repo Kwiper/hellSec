@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wetubeStaff"
+          name="WeTube Staff Server"
+          ip="92.192.508.197"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="SuperSecurePasswordAmirite" />
+
+<ports>22, 25, 1433, 443</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="150" />
+
+<dlink target="wojHome" />
+
+<file path="Staff" name="Susan_Wojcocko">Name: Susan Wojcocko 
+Position: CEO</file>
+<file path="Staff" name="Stephen_Chin">Name: Stephen Chin 
+Position: Executive Director and Co-Founder</file>
+<file path="Staff" name="Joseph_Smith">Name: Joseph Smith 
+Position: Porn Filter</file>
+<file path="Staff" name="Chadwick_Harley">Name: Chadwick Harley 
+Position: Co-Founder</file>
+
+<WhitelistAuthenticatorDaemon Remote="wetubeWhitelist"/>
+
+</Computer>

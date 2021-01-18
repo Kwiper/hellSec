@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Backup"
+          name="Z3r0 Backup System"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="Project_M" />
+<ports>22, 25, 80, 6881, 443, 554</ports>
+<portsForCrack val="3" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="Project_M" name="Project_M#001">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#004">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#025">#BINARYSMALL#</file>
+<file path="Project_M" name="Project_M#081">#BINARYSMALL#</file>
+<file path="Project_M" name="Matrix.exe">#SECURITYTRACER_PROGRAM#</file>
+
+</Computer>

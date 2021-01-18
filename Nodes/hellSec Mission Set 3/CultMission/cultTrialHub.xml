@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultTrialHub"
+          name="The Cosmic Trials"
+          ip="151.255.112.52"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="CosmicDestroyer" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<proxy time="2" />
+<portsForCrack val="6" />
+<firewall level="8" solution="FOURSIDE" additionalTime="0.1"/>
+<trace time="180" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="cultTrial1" />
+<dlink target="cultTrial2" />
+<dlink target="cultTrial3" />
+
+</Computer>

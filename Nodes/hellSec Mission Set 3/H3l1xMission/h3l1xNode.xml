@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="h3l1xNode"
+          name="H3l1x Node 1"
+          ip="192.47.182.50"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" >
+
+<adminPass pass="password" />
+<ports>22</ports>
+<portsForCrack val="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<customthemefile path="sys" name="Helix_x-server.sys" themePath="Themes/Helix_x-server.xml"/>
+
+</Computer>

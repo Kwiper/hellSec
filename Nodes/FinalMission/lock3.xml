@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lock3"
+          name="Lock 3"
+          ip="15.107.39.3"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="YGMS7HPwdT7YXhGD" />
+<ports>21, 22, 25</ports>
+<portsForCrack val="3"/>
+<proxy time="1" />
+<trace time="60" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="Lock3.dec" extension=".txt" ip="192.168.1.1" header="Lock 3">
+Gate3</encryptedFile>
+
+</Computer>

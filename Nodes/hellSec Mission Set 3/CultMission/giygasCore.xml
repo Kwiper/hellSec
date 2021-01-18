@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="giygasCore"
+          name="Giygas Core"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="core" />
+<ports>22</ports>
+<proxy time="5" />
+<portsForCrack val="1" />
+<firewall level="6" solution="SERVER" additionalTime="1.0"/>
+<trace time="100" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="sys" name="serverinfo.dat">This server runs everything in the Giygas Network. Deleting all system files will disable the server and render each node within the network useless.</file>
+
+<CustomConnectDisplayDaemon />
+
+</Computer>

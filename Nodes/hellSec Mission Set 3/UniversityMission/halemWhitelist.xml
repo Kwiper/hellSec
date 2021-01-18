@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="halemWhitelist"
+          name="Halem University Whitelist Server"
+          ip="92.114.68.193"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="H413m-Wh1t3" />
+<ports>21, 25, 22, 80, 1433, 443</ports>
+<portsForCrack val="6" />
+<firewall level="14" solution="H413MWH1T3L15T"/>
+<trace time="200" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

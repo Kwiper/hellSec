@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="schoolMail"
+          name="Beacon Academy Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="nope" />
+
+<account username="OZPin" password="oscar" type="2" />
+<account username="RRose" password="silvereyes" type="2" />
+<account username="YXiaoLong" password="goldilocks" type="2" />
+<account username="BBelladonna" password="meowcats" type="2" />
+<account username="WSchnee" password="icequeen" type="2" />
+<account username="JArc" password="tothesociallyawkward" type="2" />
+<account username="PNikkos" password="helloagain" type="2" />
+<account username="NValkyrie" password="pancakes" type="2" />
+<account username="LRen" passowrd="pleasedonothingtothechef" type="2" />
+
+<ports>22, 21, 25, 80, 1433, 6881, 443</ports>
+<portsForCrack val="7" />
+<firewall level="4" solution="RNJR" additionalTime="1.0"/>
+<proxy time="1" />
+<trace time="200" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<mailServer>
+<email recipient="OZPin" sender="GGoodwitch" subject="Renovations">
+Hello, Oscar, this email is to notify you of the renovations currently happening over at Beacon.
+
+We've hit a few roadbumps here and there, however in a few months, we should have our new and improved gymnasium and stadium.
+Yours sincerely,
+
+Gladys
+</email>
+<email recipient="OZPin" sender="JIronwood" subject="Report Records">
+Oz,
+
+The password to the Report Records server has been changed by Atlas as you requested.
+The new admin password is "Vytal"
+
+James
+</email>
+<email recipient="OZPin" sender="noreply@fakemail.com" subject="Amazing Proposition">
+Hello sir,
+I am Dr. Bakare Tunde, the cousin of Nigerian Astronaut, Air Force Major Abacha Tunde. He was the first African in space when he made a secret flight to the Salyut 6 space station in 1979. He was on a later Soviet spaceflight, Soyuz T-16Z to the secret Soviet military space station Salyut 8T in 1989. He was stranded there in 1990 when the Soviet Union was dissolved. His other Soviet crew members returned to earth on the Soyuz T-16Z, but his place was taken up by return cargo. There have been occasional Progrez supply flights to keep him going since that time. He is in good humor, but wants to come home.In the 14-years since he has been on the station, he has accumulated flight pay and interest amounting to almost $ 15,000,000 American Dollars. This is held in a trust at the Lagos National Savings and Trust Association. If we can obtain access to this money, we can place a down payment with the Russian Space Authorities for a Soyuz return flight to bring him back to Earth. I am told this will cost $ 3,000,000 American Dollars. In order to access the his trust fund we need your assistance.
+
+Consequently, my colleagues and I are willing to transfer the total amount to your account or subsequent disbursement, since we as civil servants are prohibited by the Code of Conduct Bureau (Civil Service Laws) from opening and/ or operating foreign accounts in our names.
+
+Needless to say, the trust reposed on you at this juncture is enormous. In return, we have agreed to offer you 20 percent of the transferred sum, while 10 percent shall be set aside for incidental expenses (internal and external) between the parties in the course of the transaction. You will be mandated to remit the balance 70 percent to other accounts in due course.
+</email>
+</mailServer>
+</Computer>

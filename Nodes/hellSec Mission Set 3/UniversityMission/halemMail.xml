@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="halemMail"
+          name="Halem University Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="hayeahyoulltotallygetinthis" />
+
+<account username="Ortiz" password="Halem-Prof2864" type="MAIL" />
+<ports>21, 22, 25, 80, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="8" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="halemStaff" />
+<dlink target="halemClass" />
+
+<mailServer name="Halem University Mail Server" color="150,100,150" generateJunk="true">
+    <email recipient="Ortiz" sender="Hopkins" subject="RE: RE: RE: IPs">
+On 15 May, 201X, Hopkins wrote,
+Why does the staff server even have all our IPs? Don't you think that's a bit weird?
+
+-Lester
+==============================
+On 15 May, 201X, Ortiz wrote,
+Yeah, that is a bit weird. Eh, no one really knows what those IT guys are up to. It's not like we're in danger though, that server's secure from what I've heard.
+
+-Charlie
+==============================
+On 16 May, 201X, Turing wrote,
+It's so the IT guys can track us down if they need us or something. I don't even know.
+
+-Allan
+==============================
+On 16 May, 201X, Hopkins wrote,
+Why don't you know? I thought you were the Computer Science professor here?
+
+-Lester
+==============================
+On 16 May, 201X, Turing wrote,
+Yeah, just because I teach Computer Science doesn't mean I know what goes on inside the IT peoples' brains
+
+-Allan
+==============================
+On 17 May, 201X, Ortiz wrote,
+Ahh, don't worry about it guys. I'm sure the IT guys have a reason...
+
+-Charlie 
+</email>
+<email recipient="Ortiz" sender="HalemIT" subject="Academic Database">
+Hello, Professor Ortiz,
+
+The Universal Academic Database has just reached us with your request to change passwords.
+
+Your account details are listed below:
+
+Username: Ortiz 
+Password: Vx87oL12
+
+Kind regards,
+Halem IT 
+</email>
+
+</mailServer>
+
+<WhitelistAuthenticatorDaemon Remote="halemWhitelist"/>
+
+</Computer>
+

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quantumProxy4"
+          name="Quantum Proxy Node 4"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="1" >
+
+<adminPass pass="physics" />
+
+<ports>22, 21, 1433</ports>
+<portsForCrack val="1000" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="account.dat">#BINARY#</file>
+
+</Computer>

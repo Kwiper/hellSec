@@ -1,0 +1,232 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="halemClass"
+          name="Halem University Class Records"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="H413m-V9172" />
+
+<ports>21, 22, 25, 443, 80</ports>
+<proxy time="1" />
+<portsForCrack val="5" />
+
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="halemStaff" />
+<dlink target="halemMail" />
+
+
+<file path="Courses/Mathematics" name="Class.docx">
+Course: Mathematics 
+Professor: Lester Hopkins
+
+Student list:
+Renee Hill
+Ignacio	Cooper
+Desiree	Garcia
+Adrienne Yates
+Evelyn Cunningham
+Robyn Osborne
+Kendra Clarke
+Carmen Stephens
+Katrina	Morrison
+Josefina Hamilton</file>
+<file path="Courses/History" name="Class.docx">
+Course: History
+Professor: Patti Hansen
+
+Student list:
+Marc Holt
+Rita Bowman
+Ramona Steele
+Harriet	Mcdonald
+Randy Gutierrez
+Mildred Campbell
+Cassandra Ferguson
+Meghan Barker
+Randall Pittman
+Victor Carlson</file>
+<file path="Courses/Physics" name="Class.docx">
+Course: Physics
+Professor: Jo Wijnstok
+
+Student list:
+Jason Jenkins
+Craig Sanders
+Frances	Ward
+Ruby Jackson
+Peter Gray
+Justin Barnes
+Carol Brown
+Joe	Lopez
+Phillip	Bennett
+Michelle Roberts</file>
+<file path="Courses/Chemistry" name="Class.docx">
+Course: Chemistry 
+Professor: Venus Michel 
+
+Student list:
+Phil Summers
+Jamie Peters
+Kristina Stanley
+Edwin Morris
+Blanca Cruz
+Cody Mills
+Alberta King
+Tonya Lucas
+Cheryl Fields
+Loren Walker</file>
+<file path="Courses/Biology" name="Class.docx">
+Course: Biology 
+Professor: Elliot Whit
+
+Student list:
+Jenny Figueroa
+Felix Cain
+Johnnie	Norman
+Martha Nichols
+Bert Cohen
+Dallas Robertson
+Thelma Owen
+Jonathan Diaz
+Nichole Brady
+Lorena Cook</file>
+<file path="Courses/Geology" name="Class.docx">
+Course: Geology 
+Professor: Charlie Ortiz
+
+Student list:
+Jaime Tate
+Tom	Barrett
+Laura Nakamura
+Abel Bishop
+Bill Banks
+Dean Boone
+Elisa Adams
+Connie Walton
+Natalie	Howell
+Gail Jordan</file>
+<file path="Courses/Computer_Science" name="Class.docx">
+Course: Computer Science 
+Professor: Allan Turing
+
+Student list:
+Andera Kimbrell
+Karine Navarrete
+Albertine Close
+Ettie Cowles
+Matt Trobbiani
+Abbey Cooke
+Maranda	Vera
+Zachery	Martens
+Clement	Brogan
+Collene	Hope</file>
+<file path="Courses/Visual_Arts" name="Class.docx">
+Course: Visual Arts 
+Professor: Marianne Ortega
+
+Student list:
+Nettie Schmidt
+Katie Gross
+Taylor Roy
+Katrina	Barton
+James Rallison
+Annie Burke
+Michael	Curtis
+Grace Mcdaniel
+Virginia Drake
+Henrietta Maldonado</file>
+<file path="Courses/Music" name="Class.docx">
+Course: Music 
+Professor: Marisol Rinehart
+
+Student list:
+Theron Oswald
+Lane Roden
+Tosha Mcmillian
+Marcelo	Bright
+Nancie Albright
+Sunni Pickering
+Chin Farris
+Hettie Marks
+Shanika	Hayward
+Dedra Poe</file>
+<file path="Courses/Economics" name="Class.docx">
+Course: Economics 
+Professor: Daniel Pulliam
+Student list:
+Kiyoko Tillman
+Scarlett Truong
+Dayle Orellana
+Valorie Elrod
+Shiloh Olvera
+Jannette Abernathy
+Jackson	Deleon
+Carolina Chester
+Lorenza	Broughton
+Billye Schreiber</file>
+<file path="Courses/Dance" name="Class.docx">
+Course: Dance 
+Professor: Robin Gardner
+
+Student list:
+Lynne Fitzgerald
+Alfredo	Reed
+Mindy Caldwell
+Frank Frank
+Leonard	Murray
+Virginia Gibbs
+Maggie Weaver
+Gilbert Davidson
+Faith Larson
+Michelle Warner</file>
+<file path="Courses/Creative_Writing" name="Class.docx">
+Course: Creative Writing 
+Professor: Cali Peverell
+
+Student list:
+Mandy Palmer
+Harriet	Erickson
+Barry Gardner
+Dallas Baldwin
+Casey Scott
+Erma Cohen
+Armando	Walker
+Melody Warner
+Jon	Brooks
+Silvia Singleton</file>
+<file path="Courses/Literature" name="Class.docx">
+Course: Literature 
+Professor: Amelia Adams
+
+Student list:
+Korey Whitt
+Myrta Scoggins
+Missy Deleon
+Patrice	Sexton
+Ettie Shuler
+Rosia Chisholm
+Agripina Granger
+Nell Calvert
+Lady Amador
+Onie Williford</file>
+<file path="Courses/Engineering" name="Class.docx">
+Course: Engineering 
+Professor: Rupert Fusco
+
+Student list:
+Evie Edmonds
+Tiny Mclendon
+Nigel Richmond
+Peggie Leahy
+Paz	Wiley
+Geri Binkley
+Jaymie Houser
+Carlena	Henley
+Regan Dooley
+Farrah Hull</file>
+
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusGateway"
+          name="Morpheus Gateway"
+          ip="298.108.69.17"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="g4t3w4y2h3ll" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<proxy time="1" />
+<portsForCrack val="6" />
+<firewall level="7" solution="G4T3W4Y"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="home/Backup" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="home" name="Core_IP.txt">77.192.59.971</file>
+
+<Memory>
+    <Data>
+    <Block>Whitelist Server 2.5</Block>
+    <Block>62.192.593.102</Block>
+    </Data>
+</Memory>
+
+</Computer>

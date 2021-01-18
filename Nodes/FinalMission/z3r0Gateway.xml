@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Gateway"
+          name="Z3r0 Gateway 1"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="Z3r0G4t3" />
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<proxy time="4" />
+<portsForCrack val="7" />
+<firewall level="8" solution="Z3R0G4T3" additionalTime="0.5"/>
+<trace time="180" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<portRemap>21=42,22=34,80=180,1433=72,443=8080</portRemap>
+<tracker />
+
+<encryptedFile path="home" name="1.dec" extention=".txt" ip="192.168.1.1" header="1" pass="GateLock1">
+_3_.9__.__1.2__</encryptedFile>
+<encryptedFile path="home" name="2.dec" extension=".txt" ip="192.168.1.1" header="2" pass="Gateway2">
+1__._0_.2__._1_</encryptedFile>
+<encryptedFile path="home" name="3.dec" extension=".txt" ip="192.168.1.1" header="3" pass="Gate3">
+__4.__3._4_.__5</encryptedFile>
+
+<eosDevice name="Gateway Phone" id="gatewayPhone" icon="ePhone" empty="true" passOverride="GatePhone">
+    <note>Locks
+12.109.29.1
+12.108.28.2
+15.107.39.3</note>
+</eosDevice>
+
+<Memory>
+<Data>
+<Block>Admin Override</Block>
+<Block>GatePhone</Block>
+</Data>
+</Memory>
+
+
+
+</Computer>

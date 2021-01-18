@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusWhitelist"
+          name="Morpheus Whitelist Server"
+          ip="239.14.56.2"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="2" >
+
+<adminPass pass="rorysfirstkiss" />
+
+<ports>21, 22, 25, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="120" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+</Computer>

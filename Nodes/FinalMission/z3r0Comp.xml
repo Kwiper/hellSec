@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Comp"
+          name="Z3r0 Battlestation"
+          ip="14.28.109.28"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="4ll0n5-Y" />
+
+<ports>22, 80, 1433, 554, 443</ports>
+<proxy time="1" />
+<portsForCrack val="5" />
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="hellSec.docx">
+Leader:
+Z3r0
+
+Agents:
+Quartz
+Bufflenut
+#PLAYERNAME#
+
+Prospectives:
+Coel
+Matrix
+Naix</file>
+
+<file path="home" name="project_m.docx">
+Remove Government's involvement in Project M [COMPLETE]
+Eliminate Morpheus [COMPLETE]
+Initiate Project M</file>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+<file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+
+
+<file path="eos" name="eosDeviceSync.dat">#BINARY#</file>
+
+
+<eosDevice>
+    <note>Project M Location
+19.27.192.10</note>
+</eosDevice>
+
+
+
+<WhitelistAuthenticatorDaemon Remote="z3r0Whitelist"/>
+
+</Computer>

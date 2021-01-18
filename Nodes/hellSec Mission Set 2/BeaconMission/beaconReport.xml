@@ -1,0 +1,168 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="schoolReport"
+          name="Beacon Academy Reports Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="Vytal" />
+<ports>443</ports>
+<portsForCrack val="1000" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="Reports/RRose" name="Report.txt">
+Ruby Rose
+
+Math: B
+Science: C
+History: D
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/YXiaoLong" name="Report.txt">
+Yang Xiao Long
+
+Math: D
+Science: C
+History: B
+Computer Science: C
+Physical Education: A+
+</file>
+<file path="Reports/BBelladonna" name="Report.txt">
+Blake Belladonna
+
+Math: A 
+Science: A 
+History: A 
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/WSchnee" name="Report.txt">
+Weiss Schnee
+
+Math: A+
+Science: A+
+History: A+
+Computer Science: A
+Physical Education: A
+</file>
+<file path="Reports/JArc" name="Report.txt">
+Jaune Arc
+
+Math: B
+Science: C
+History: D
+Computer Science: B 
+Physical Education: C
+</file>
+<file path="Reports/PNikkos" name="Report.txt">
+Pyrrha Nikkos
+
+Math: B
+Science: B
+History: A
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/NValkyrie" name="Report.txt">
+Nora Valkyrie
+
+Math: B
+Science: A
+History: B
+Computer Science: B 
+Physical Education: A
+</file>
+<file path="Reports/LRen" name="Report.txt">
+Lie Ren
+
+Math: A+
+Science: A
+History: B
+Computer Science: A
+Physical Education: A+
+</file>
+<file path="Reports/JBourne" name="Report.txt">
+Jacob Bourne
+
+Math: B
+Science: C
+History: D
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/MWazowski" name="Report.txt">
+Michael Wazowski
+
+Math: A 
+Science: A 
+History: A 
+Computer Science: A 
+Physical Education: C
+</file>
+<file path="Reports/NSmith" name="Report.txt">
+Nick Smith
+
+Math: B
+Science: C
+History: D
+Computer Science: A
+Physical Education: A+
+</file>
+<file path="Reports/JStalvern" name="Report.txt">
+John Stalvern
+
+Math: B
+Science: C
+History: D
+Computer Science: B 
+Physical Education: B
+</file>
+<file path="Reports/MTrobbiani" name="Report.txt">
+Matt Trobbiani
+
+Math: A+
+Science: A+
+History: A
+Computer Science: A+
+Physical Education: A
+</file>
+<file path="Reports/HPotter" name="Report.txt">
+Harold Potter
+
+Math: B
+Science: A
+History: D
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/JSartorius" name="Report.txt">
+Jacob Sartorius
+
+Math: F 
+Science: F 
+History: F 
+Computer Science: F 
+Physical Education: F 
+</file>
+<file path="Reports/MMurdock" name="Report.txt">
+Matt Murdock
+
+Math: A 
+Science: B 
+History: A+ 
+Computer Science: B 
+Physical Education: A+
+</file>
+<file path="Reports/TNanderson" name="Report.txt">
+Thomas Nanderson
+
+Math: A
+Science: A
+History: A
+Computer Science: A
+Physical Education: A
+</file>
+
+</Computer>

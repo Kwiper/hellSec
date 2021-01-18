@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jeveHome"
+          name="Jeve Stobs Laptop"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="2" >
+
+<account username="JeveStobs" password="gillbatessucks" type="0" />
+
+<ports>21, 22, 25, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="ImportantIPs.txt">
+IRC channel: 269.143.26.7
+Warehouse Server: 168.33.89.32</file>
+<file path="home" name="memo.txt">
+1. Watch 13 Reasons Why Not on Getflix
+2. Email Aperture about development
+3. Talk to CSA about job offer</file>
+
+<eosDevice name="Jeve Stobs ePad Pro" id="jeveePad" icon="tablet" empty="true" passOverride="alpine">
+<note>IRC User: JeveStobs Pass: turtlenecksarecool</note>
+</eosDevice>
+
+</Computer>

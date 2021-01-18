@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wetubeWhitelist"
+          name="WeTube Whitelist Server"
+          ip="82.172.91.19"
+          security="3"
+          allowsDefaultBootModule="false"
+          type="4" >
+
+<adminPass pass="WeTubeIsTheBest" />
+
+<ports>22, 25, 80, 443</ports>
+<proxy time="2" />
+<portsForCrack val="4" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="schoolStaff"
+          name="Beacon Academy Staff Server"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="theresapointwhereittips" />
+<ports>22, 21, 25, 1433</ports>
+<portsForCrack val="3" />
+<proxy time="1" />
+<trace time="150" />
+<admin type="basic" resetPassword="false" isSuper="false"/>
+
+<file path="Staff/O.Z.Pin" name="O.Z.Pin.txt">
+Name: Oscar Z. Pin
+Position: Head of Beacon Academy
+Home: 148.46.97.2</file>
+<file path="Staff/G.Goodwitch" name="G.Goodwitch.txt">
+Name: Gladys Goodwitch
+Position: Head Professor and Secretary
+Home: 35.85.97.1</file>
+<file path="Staff/B.Oobleck" name="B.Oobleck.txt">
+Name: Barry Oobleck
+Position: Professor
+Home: 15.234.97.50</file>
+<file path="Staff/P.Port" name="P.Port.txt">
+Name: Preston Port
+Position: Professor
+Home: 67.245.187.4</file>
+
+</Computer>

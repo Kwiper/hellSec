@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mansionComp"
+          name="White Mansion Server"
+          ip="173.36.267.52"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="3" >
+
+<adminPass pass="Mogul" />
+<ports>21, 22, 25, 80, 1433, 554</ports>
+<proxy time="1" />
+<portsForCrack val="1000" />
+<firewall level="5" solution="POTUF"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+<tracker />
+
+<file path="home" name="project_m.dat">#BINARY#</file>
+<file path="home" name="executive_orders.dat">#BINARY#</file>
+<file path="home" name="people_to_lookout_for.txt">
+Bit
+
+Kaguya
+
+#PLAYERNAME#
+
+Z3r0
+
+D3f4ult
+
+Naix</file>
+
+<WhitelistAuthenticatorDaemon Remote="mansionWhitelist"/>
+</Computer>
+

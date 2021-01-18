@@ -1,0 +1,20 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+
+<Computer id="eastboroComp"
+          name="Eastboro Durtist Church"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="PraiseDurtis" />
+
+<ports>25,21</ports>
+
+<portsForCrack val="1" />
+
+<variableMissionListingServer name="Eastboro Durtist Church" iconPath="DefaultLogo.png" 
+                              articleFolderPath="Nodes/hellSec Mission Set 1/Eastboro"
+                              color="255,255,0" assigner="false" public="true"/>
+
+</Computer>

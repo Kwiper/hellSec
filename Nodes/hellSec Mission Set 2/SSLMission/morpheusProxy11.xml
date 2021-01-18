@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morphProxy11"
+          name="Morpheus Proxy Node 11"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="grouphug" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="1000" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+</Computer>

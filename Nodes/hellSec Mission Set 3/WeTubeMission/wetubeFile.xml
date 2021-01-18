@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wetubeFile"
+          name="WeTube File Host"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="KJGFkas917S1" />
+
+<account username="Wojcocko" password="WeTubeCEO" type="ALL" />
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="1000" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="Uploads/PeeDeePee" name="CLICKBAIT???.mp4">#BINARY#</file>
+<file path="Uploads/PeeDeePee" name="Let's_Play_Sad_Wheels.mp4">#BINARY#</file>
+<file path="Uploads/PeeDeePee" name="MY_GIRLFRIEND_IS_A_PEDOPHILE???(NOT_CLICKBAIT).mp4">#BINARY#</file>
+<file path="Uploads/PeeDeePee" name="I_BECOME_A_FIDGET_SPINNER_GOD.mp4">#BINARY#</file>
+
+<file path="Uploads/TheOddGuyOut" name="Sooubway_Part_4.mp4">#BINARY#</file>
+<file path="Uploads/TheOddGuyOut" name="Jerry_The_Moth.mp4">#BINARY#</file>
+<file path="Uploads/TheOddGuyOut" name="I_build_a_'snowman'_for_half_of_this_video_and_talk_for_the_rest_(not clickbait).mp4">#BINARY#</file>
+<file path="Uploads/TheOddGuyOut" name="THE_FINEST_BROS_RANT.mp4">#BINARY#</file>
+<file path="Uploads/TheOddGuyOut" name="3_million_sprinkles_on_a_cake.mp4">#BINARY#</file>
+<file path="Uploads/TheOddGuyOut" name="Sooubway_Part_5.mp4">#BINARY#</file>
+
+<file path="Uploads/Orann" name="Hacknet_Extensions_stream_-_Hacknet_BRAP.mp4">"I'm gonna start off with some casual Double Penetration" -Matt</file>
+<file path="Uploads/Orann" name="XXX_Hot_Jaiden_Porn_Hnnnng.mp4">"I'm gonna save this for later" -Matt</file>
+
+<file path="Uploads/CaptainSprinklez" name="Bianite_Ep_1.mp4">#BINARY#</file>
+<file path="Uploads/CaptainSprinklez" name="Take_Back_The_Day.mp4">#BINARY#</file>
+<file path="Uploads/CaptainSprinklez" name="Some_Sick_Vlog.mp4">#BINARY#</file>
+
+<file path="Uploads/Grumplestiltskin" name="hellSec_EXPOSED.mp4">#BINARY#</file>
+<file path="Uploads/Grumplestiltskin" name="hellSec_Part2.mp4">#BINARY#</file>
+<file path="Uploads/Grumplestiltskin" name="Hackers_are_a_disease.mp4">#BINARY#</file>
+<file path="Uploads/Grumplestiltskin" name="Morpheus_-_Savior_or_killer?.mp4">#BINARY#</file>
+
+<file path="Uploads/UniversityHumor" name="Drump's_Brilliant_Strategy.mp4">#BINARY#</file>
+<file path="Uploads/UniversityHumor" name="If_Guugle_Was_a_Woman.mp4">#BINARY#</file>
+
+<uploadServerDaemon name="WeTube File Host" folder="Uploads" 
+                      needsAuth="false" color="204,116,212"/>
+
+<WhitelistAuthenticatorDaemon Remote="wetubeWhitelist"/>
+
+</Computer>

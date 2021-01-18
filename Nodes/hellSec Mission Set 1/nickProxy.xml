@@ -1,0 +1,19 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="nickProxy"
+          name="N.Smith Proxy"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="1" >
+
+
+<adminPass pass="nicksmithelectronics" />
+<ports>22,21,25,80</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+
+<positionNear target="nickComp" position="2" total="3" extraDistance="-0.2"/>
+
+<file path="home" name="hellSecInfo.docx">#BINARY#</file>
+
+</Computer>

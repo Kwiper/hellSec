@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusHome"
+          name="Morpheus Battlestation"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="2" >
+
+<adminPass pass="blueharvest" />
+
+<ports>21, 22, 25, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="120" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="morpheusSecret" />
+
+<file path="home" name="1.txt">Proxy Node 1: londoncalling</file>
+<file path="home" name="prj_m.docx">#BINARY#</file>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+<eosDevice name="Morpheus ePad Mini" id="morpheusTablet" icon="tablet" empty="false" passOverride="alpine">
+    <note>Whitelist
+    239.14.56.2</note>
+</eosDevice>
+
+<customthemefile path="sys" name="Phoenix_x-server.sys" themePath="Themes/Phoenix_x-server.xml"/>
+
+</Computer>

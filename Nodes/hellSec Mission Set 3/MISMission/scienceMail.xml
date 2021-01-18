@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="scienceMail"
+          name="ScienceMail Mail Server"
+          ip="39.102.59.182"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="somethingidk" />
+<account username="hawkins" password="physicsisfun" type="MAIL" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="6" />
+<admin type="none"/>
+
+<mailServer name="ScienceMail Mail Server" color="0,150,100" generateJunk="true">
+    <email recipient="hawkins" sender="MIS@mismail.com" subject="Theory of the Universe">
+Dear Dr. Hawkins,
+We at the Massachusetts Institute of Science thank you for being a speaker for our Universe Studies Day. 
+Your presentation has been recieved and has been stored on our servers.
+We hope to see you soon.
+
+-Massachusetts Institute of Science</email>
+    <email recipient="hawkins" sender="dave@mismail.com" subject="Re: Presentation Server">
+On 22 May, 201X, dave wrote,
+Hey, Dr. Hawkins, thank you for your email. 
+Unfortunately we cannot give you the IP to our presentation server as we must keep it secured, however I can link you to our university server.
+20.381.583.19
+-Dave from MIS
+==============================
+On 21 May, 201X, hawkins wrote,
+Hello, Dave from MIS. This is Stephen Hawkins.
+
+I am writing this email to request access to your presentation server. I am afraid that my presentation may not have made it to MIS properly.
+
+Thank you,
+-Stephen Hawkins, PhD, MS, BS, AS.
+</email>
+</mailServer>
+</Computer>

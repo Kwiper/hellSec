@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morphProxy1"
+          name="Morpheus Proxy Node 1"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="londoncalling" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="1000" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="???.txt">168.139.133.7</file>
+
+</Computer>

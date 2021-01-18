@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ebcMail"
+          name="EBC Mail Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="highfunctioningsociopath" />
+<account username="Muffat" password="EBCMuffat" type="2" />
+
+<ports>6881</ports>
+<portsForCrack val="2" />
+
+<mailServer name="EBC" color="50,237,212">
+    <email recipient="Muffat" sender="Gatass@ebcmail.co.uk" subject="Professor What">
+Last of the Professor What scripts has been uploaded to the vault Server
+-Mark</email>
+    <email recipient="Muffat" sender="EBCSecu@ebcmail.co.uk" subject="Re: Re: Whitelist">
+====================
+On 5 May, 201X, EBCSecu wrote,
+
+Hello, Steven Muffat
+Your IP has been added to the whitelist server @142.69.225.44
+Please find enclosed with this email your username and password for the server:
+
+Username: Muffat
+Password: EBC-Secu182A115
+
+Kind regards,
+EBC Security
+====================
+On 4 May, 201X, Muffat wrote,
+
+Could you guys please add me to the whitelist, I'm unable to access the vault for the Professor What scripts 
+
+Thanks,
+Steven 
+====================
+On 4 May, 201X, EBCSecu wrote,
+
+Attention all staff members of the EBC,
+Due to recent exploits in our security, we have added a whitelist server.
+If you are unable the access any servers because of this, please notify us and we will add your IP to the whitelist ASAP
+
+Kind regards,
+EBC Security
+
+</email>
+</mailServer>
+
+</Computer>

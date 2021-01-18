@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ebcWhitelist"
+          name="EBC Whitelist Server"
+          ip="142.69.225.44"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="doyourresearch" />
+<account username="Muffat" password="EBC-Secu182A115" type="ALL" />
+<ports>554</ports>
+<portsForCrack val="1" />
+<trace time="60" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

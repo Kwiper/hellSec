@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="halemStaff"
+          name="Halem University Staff Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="H413m-IY972" />
+<ports>22, 25, 80, 443, 1433</ports>
+<portsForCrack val="5" />
+<firewall level="11" solution="HALEMSCHOOL"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="halemClass" />
+<dlink target="halemMail" />
+
+<file path="home" name="Staff_List.docx">
+Lester Hopkins (172.56.286.102)
+
+Patti Hansen (173.192.50.103)
+
+Jo Wijnstok (182.29.571.104)
+
+Venus Michel (161.251.52.7)
+
+Elliot Whit (189.162.59.19)
+
+Charlie Ortiz (190.172.44.12)
+
+Allan Turing (67.19.54.41)
+
+Marianne Ortega (162.58.197.19)
+
+Marisol Rinehart (208.172.59.18)
+
+Daniel Pulliam (273.182.59.1)
+
+Robin Gardner (271.59.182.50)
+
+Cali Peverell (38.192.492.20)
+
+Amelia Adams (172.58.601.29)
+
+Rupert Fusco (18.38.501.293)</file>
+
+</Computer>

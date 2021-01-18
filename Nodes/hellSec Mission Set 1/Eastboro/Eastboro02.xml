@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eastboro02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Durtis Hates News!">
+As said by the Holy Dible of Durtis, "Thou shalt only recieve true information from the Holy scriptures of Durtis."
+THEM NEWSPAPERS AND NEWS CHANNELS BE FEEDING US FALSE INFORMATION.
+JOIN ME, BROTHERS AND SISTERS, IN PRAYING THE NEWS AWAY.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

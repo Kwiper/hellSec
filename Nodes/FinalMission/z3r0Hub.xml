@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Hub"
+          name="Z3r0 Hub"
+          ip="134.903.241.215"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="RYCBAR12345"/>
+
+<ports>21, 22, 25, 80, 1433, 6881, 443, 554</ports>
+<portsForCrack val="5"/>
+<firewall level="8" additionalTime="0.5"/>
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+<CustomConnectDisplayDaemon />
+
+<Memory>
+<Data>
+<Block>Whitelist Server</Block>
+<Block>17.192.39.102</Block>
+</Data>
+</Memory>
+
+
+</Computer> 

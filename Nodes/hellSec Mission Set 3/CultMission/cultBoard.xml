@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultBoard"
+          name="Order of Giygas Message Board"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="Mother" />
+
+<ports>21, 22, 25, 443</ports>
+<proxy time="3" />
+<portsForCrack val="4" />
+<firewall level="6" solution="GEIGUE" additionalTime="0.5"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<messageBoard name="Order of Giygas">
+    <thread>Docs/GiygasBoard/IntroThread.txt</thread>
+    <thread>Docs/GiygasBoard/GiygasThread1.txt</thread>
+    <thread>Docs/GiygasBoard/GiygasThread2.txt</thread>
+    <thread>Docs/GiygasBoard/GiygasThread3.txt</thread>
+</messageBoard>
+
+</Computer>

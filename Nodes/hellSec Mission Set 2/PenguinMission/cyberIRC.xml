@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cyberIRC"
+          name="Cyber-Security Agency IRC Channel"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="c54v4u17" />
+<ports>21, 22, 25, 1433, 80, 443</ports>
+<proxy time="1" />
+<portsForCrack val="2" />
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<IRCDaemon themeColor="0,255,220" name="Cyber-Security Agency IRC" needsLogin="false">
+    <user name="Argus" color="255,0,0"/>
+    <user name="Nexus" color="0,255,0"/>
+    <user name="Vargas" color="0,0,255"/>
+
+    <post user="Argus">Hey, what's the IP for the Storage server again?</post>
+    <post user="Nexus">Why, what do you need it for?</post>
+    <post user="Argus">I accidentally deleted my copy of the Decypher program</post>
+    <post user="Vargas">Good job</post>
+    <post user="Vargas">It's 197.235.36.11</post>
+    <post user="Argus">Thanks</post>
+    <post user="Nexus">How the hell do you "accidentally" delete a program</post>
+    <post user="Argus">I dunno man, I just did.</post>
+    <post user="Vargas">Idiot</post>
+</IRCDaemon>
+
+</Computer>

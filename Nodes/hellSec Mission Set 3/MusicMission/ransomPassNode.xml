@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomPassNode"
+          name="WannaDie Ransom Node 1"
+          ip="28.381.59.28"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="IWannaDieNow" />
+
+<ports>21, 22, 25, 6881, 443</ports>
+<portsForCrack val="4" />
+<trace time="80" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="CheckmatePass.dec" extension=".txt" ip="192.168.1.1" header="Checkmate Pass" pass="*******">
+VX9LS312</encryptedFile>
+
+<Memory>
+<Data>
+<Block>Pass</Block>
+<Block>*******</Block>
+</Data>
+</Memory>
+
+</Computer>

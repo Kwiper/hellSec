@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hawkinsComp"
+          name="Stephen Hawkins Laptop"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" >
+
+<adminPass pass="theoryofeverything" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<proxy time="1" />
+<portsForCrack val="6" />
+<firewall level="6"/>
+<trace time="150"/>
+<admin type="none"/>
+
+<file path="home" name="TheoryOfUniverse.docx">This is not the document I will be presenting. That document has been sent to the Massachusetts Institue of Science.</file>
+
+<eosDevice name="Stephen Hawkins ePad" id="hawkinsTab" icon="tablet" empty="true" passOverride="alpine">
+<note>Mail IP
+39.102.59.182</note>
+<mail username="hawkins@sciencemail.com" pass="physicsisfun" />
+</eosDevice>
+
+</Computer>

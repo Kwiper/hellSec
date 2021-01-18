@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="drumpComp"
+          name="Donald Drump Computer"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="2" >
+
+<adminPass pass="potuf" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="VictorySpeech.docx">We must reclaim our country's destiny and dream big and bold and daring. We have to do that. We're going to dream of things for our country and beautiful things and successful things once again.
+
+I want to tell the world community that while we will always put America's interests first, we will deal fairly with everyone, with everyone - all people and all other nations. We will seek common ground, not hostility; partnership, not conflict.</file>
+
+<file path="home" name="100_Day_Plan.docx">
+-Repeal and replace Nobamacare
+
+-Build a majestic barrier
+
+-Bring back jobs
+
+-Lock her up
+
+-Be the most tremendous President of the United Federation of America
+
+-Hand enlargener surgery </file>
+
+<file path="home" name="White_Mansion_IP.txt">173.36.267.52</file>
+<file path="home" name="Mail_Server.txt">123.52.134.2</file>
+
+<eosDevice name="Donald Drump ePhone 6" id="drumpPhone" icon="ePhone2" empty="false" passOverride="alpine">
+    <note>White Mansion password in case I forget: Mogul</note>
+    <mail username="donalddrump@ufamail.com" pass="tremendous" />
+</eosDevice>
+
+</Computer>

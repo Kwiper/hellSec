@@ -1,0 +1,28 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="buffleComp"
+          name="Bufflenut Battlestation"
+          ip="28.391.293.23"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="2" >
+
+<adminPass pass="nutz" />
+
+<ports>21, 22, 443, 554, 6881</ports>
+<proxy time="2" />
+<portsForCrack val="5" />
+<trace time="100" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+<customthemefile path="sys" name="Meme_x-server.sys" themePath="Themes/Meme_x-server.xml"/>
+
+</Computer>

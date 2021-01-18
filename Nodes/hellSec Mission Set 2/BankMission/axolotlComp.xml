@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="axolotlComp"
+          name="Axolotl Proxy Node"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="2" >
+
+<adminPass pass="axolotlslair" />
+<ports>21, 22, 25, 1433, 443</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="bin" name="MemForensics.txt">Upon execution, allows viewing of memory dump files</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.txt">Upon execution, creates a memory dump file in your computer</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+</Computer>

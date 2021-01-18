@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="giygasMission"
+          name="Order of Giygas Mission Hub"
+          ip="91.256.39.267"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="password" />
+<ports>21, 22, 25</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="giygasCore" />
+
+<variableMissionListingServer name="Order of Giygas Mission Hub" iconPath="giygaslogo.png" 
+                              articleFolderPath="Docs/GiygasMissions"
+                              color="150,0,0" assigner="false" public="true"/>
+
+</Computer>

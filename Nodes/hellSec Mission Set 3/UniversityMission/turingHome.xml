@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="turingHome"
+          name="Allan Turing Home"
+          ip="67.19.54.41"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" >
+
+<adminPass pass="AARON" />
+<ports>22, 25, 80, 443, 6881</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="whitelist.dec" extension=".txt" ip="192.168.1.1" header="Whitelist">
+92.114.68.193</encryptedFile>
+
+</Computer>

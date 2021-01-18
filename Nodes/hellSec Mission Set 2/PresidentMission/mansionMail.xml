@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mansionMail"
+          name="White Mansion Mail Server"
+          ip="123.52.134.2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="3" >
+
+<adminPass pass="mailserver" />
+
+<account username="donalddrump" password="tremendous" type="2" />
+
+<ports>554</ports>
+<portsForCrack val="1" />
+<firewall level="16" solution="UN1T3DF3D3R4T10N"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<mailServer name="White Mansion" color="0,0,255">
+<email recipient="donalddrump" sender="Federation Intelligence Bureau" subject="Whitelist">
+Mr. President,
+Per your request, we have included the following people to the White Mansion Whitelist:
+
+Yuri Mikhailov
+
+Vladimir Putinkhov
+
+Anatoly Ranskahov
+
+Whitelist IP is 111.26.239.31 should you wish to make any adjustments.
+
+-James
+</email>
+</mailServer>
+
+</Computer>

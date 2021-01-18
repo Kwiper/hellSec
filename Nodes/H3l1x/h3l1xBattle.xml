@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="h3l1xBattle"
+          name="H3l1x Battlestation"
+          ip="183.203.15.12"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="2" >
+
+<adminPass pass="h3l1xfossil" />
+
+<ports>25, 80, 1433, 6881</ports>
+<portsForCrack val="4" />
+<firewall level="11" solution="HELIXFOSSIL"/>
+<trace time="150" />
+<admin type="none"/>
+
+<dlink target="h3l1xNode"/>
+
+<customthemefile path="sys" name="Helix_Alt_x-server.sys" themePath="Themes/Helix_Alt_x-server.xml"/>
+
+</Computer>

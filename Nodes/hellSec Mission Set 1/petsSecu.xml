@@ -1,0 +1,22 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+
+<Computer id="petSecu"
+          name="Paw-some Pets Security"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="DLCLaptop"
+          type="4" >
+
+<adminPass pass="secure-codeA113" />
+
+<ports>22,21,25,80</ports>
+<portsForCrack val="3" />
+<proxy time="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+<trace time="100" />
+
+<file path="sys" name="cagelock.dll">#BINARY#</file>
+<file path="sys" name="caution_cagelock.txt">DO NOT CHANGE OR REMOVE ANYTHING IN THE FILE. DOING SO WILL SHUT THE SYSTEM DOWN AND ALL SECURITY WILL FAIL.</file>
+
+
+</Computer>

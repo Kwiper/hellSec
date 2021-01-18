@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="macroIRC"
+          name="Macrosoft IRC"
+          security="5"
+          ip="269.143.26.7"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="macrosoftIRCchat1" />
+<account username="JeveStobs" password="turtlenecksarecool" type="1" />
+
+<ports>80, 1433, 6881</ports>
+<portsForCrack val="3" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<IRCDaemon themeColor="67,204,148" name="Macrosoft IRC Channel" needsLogin="true">
+    <user name="JeveStobs" color="255,255,255"/>
+    <user name="TimCrook" color="255,255,255"/>
+
+    <post user="TimCrook">Gill fucked up the other day.</post>
+    <post user="JeveStobs">What did he do now?</post>
+    <post user="TimCrook">He posted the Macrosoft warehouse IP and admin password in public on Tweetbook when one of our employees PM'd him about it.</post>
+    <post user="JeveStobs">What the fuck</post>
+    <post user="JeveStobs">Did he at least change the password?</post>
+    <post user="TimCrook">Barely</post>
+    <post user="TimCrook">He just added a capital A to the end of it.</post>
+    <post user="JeveStobs">So the password is now macrosoftNCC1701A</post>
+    <post user="TimCrook">I swear to god, if you make the same mistake as he did...</post>
+    <post user="JeveStobs">It's fine, this is a private IRC channel, no one can see it.</post>
+</IRCDaemon>
+
+</Computer>

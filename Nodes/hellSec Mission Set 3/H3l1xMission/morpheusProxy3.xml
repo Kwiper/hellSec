@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="morpheusProxy3"
+          name="Morpheus Proxy Node 3"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="4" >
+
+<adminPass pass="M0rph3u5-V0rt3X-G4t3" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<proxy time="2" />
+<portsForCrack val="4" />
+<trace time="100" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="Gateway.dec" extension=".txt" ip="298.108.69.17" header="Morpheus Gateway" pass="1028483">
+#BINARY#</encryptedFile>
+
+</Computer>

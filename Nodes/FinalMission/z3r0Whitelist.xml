@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Whitelist"
+          name="Z3r0 Whitelist Server"
+          ip="17.192.39.102"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="G3r0n1m0" />
+
+<ports>21, 22, 25, 6881, 443, 554</ports>
+<proxy time="5" />
+<portsForCrack val="6" />
+<firewall level="8" solution="G3R0N1M0" additionalTime="0.2"/>
+<trace time="180" />
+<admin type="none"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

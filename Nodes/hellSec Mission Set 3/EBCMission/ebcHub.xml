@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ebcHub"
+          name="EBC Hub Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="doctordisco" />
+
+<ports>21, 22, 25, 80, 1433, 443</ports>
+<proxy time="2" />
+<portsForCrack val="6" />
+<trace time="200" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="ebcVault" />
+<dlink target="ebcMail" />
+<dlink target="muffatHome" />
+<dlink target="gatassHome" />
+<dlink target="vertueHome" />
+
+</Computer>

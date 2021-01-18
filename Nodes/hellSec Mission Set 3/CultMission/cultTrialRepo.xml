@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cultTrialRepo"
+          name="Aether Repository"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Alchemist"
+          type="4" >
+
+<adminPass pass="Aether" />
+<ports>22, 25, 443</ports>
+<proxy time="2" />
+<portsForCrack val="3" />
+<firewall level="6" solution="AETHER" additionalTime="0.5"/>
+<trace time="70" />
+
+<file path="Body" name="???.txt">pass=Salt</file>
+<file path="Spirit" name="???.txt">#BINARY#</file>
+<file path="Soul" name="???.txt">#BINARY#</file>
+
+</Computer>

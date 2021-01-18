@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quantumWeb"
+          name="Quantum Web"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1">
+
+<adminPass pass="entanglement" />
+
+<ports>22, 21, 25, 1433, 80</ports>
+<proxy time="2" />
+<portsForCrack val="4" />
+<firewall level="7" solution="QU4N7UM"/>
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="quantumProxy1" />
+<dlink target="quantumProxy3" />
+<dlink target="quantumProxy4" />
+<dlink target="quantumProxy6" />
+<dlink target="quantumProxy9" />
+
+</Computer>

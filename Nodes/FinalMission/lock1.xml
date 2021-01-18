@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lock1"
+          name="Lock 1"
+          ip="12.109.29.1"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="NJNuQPWS7nPtRUZd"/>
+<ports>21, 22, 443, 80, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="150" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="eos" name="eosDeviceSync.dat">#BINARY#</file>
+
+<eosDevice name="Lock 1 Phone" id="lockPhone" icon="ePhone2" empty="true" passOverride="alpine">
+<note>1
+GateLock1</note>
+</eosDevice>
+
+</Computer>

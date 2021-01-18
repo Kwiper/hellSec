@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="z3r0Gateway2"
+          name="Z3r0 Gateway 2"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="Z3r0G4t3" />
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<proxy time="2" />
+<portsForCrack val="7" />
+<firewall level="1" solution="Z3R0G4T37W0"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="home.dec" extension=".docx" ip="192.168.1.1" header="home">
+14.28.109.28</encryptedFile>
+<file path="home" name="home.docx">14.28.109.28</file>
+
+</Computer>
+

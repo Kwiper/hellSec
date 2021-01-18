@@ -1,0 +1,225 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="penguinWeb"
+          name="Penguin Zone Web Server"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="penguinsarecool" />
+<ports>21, 22, 25, 80, 1433</ports>
+<portsForCrack val="5" />
+<firewall level="7" solution="PENGUIN" additionalTime="0.1"/>
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="Users/Algernon" name="playerdata.dat">
+[Username]Algernon[/Username]
+[Coins]465[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Red Ninja[/CardBattlesRank]</file>
+<file path="Users/Antrinax" name="playerdata.dat">
+[Username]Antrinax[/Username]
+[Coins]132[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Borealis" name="playerdata.dat">
+[Username]Borealis[/Username]
+[Coins]1632[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Black Ninja[/CardBattlesRank]</file>
+<file path="Users/Cradle" name="playerdata.dat">
+[Username]Cradle[/Username]
+[Coins]1312[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]White Ninja[/CardBattlesRank]</file>
+<file path="Users/Cullamelon" name="playerdata.dat">
+[Username]Cullamelon[/Username]
+[Coins]652[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/DanTheMan" name="playerdata.dat">
+[Username]DanTheMan[/Username]
+[Coins]100[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Draxis" name="playerdata.dat">
+[Username]Draxis[/Username]
+[Coins]1442[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]White Ninja[/CardBattlesRank]</file>
+<file path="Users/Dunny2241" name="playerdata.dat">
+[Username]Dunny2241[/Username]
+[Coins]15[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Elementor" name="playerdata.dat">
+[Username]Elementor[/Username]
+[Coins]1563[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Blue Ninja[/CardBattlesRank]</file>
+<file path="Users/Expectamundo" name="playerdata.dat">
+[Username]Expectamundo[/Username]
+[Coins]195[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Green Ninja[/CardBattlesRank]</file>
+<file path="Users/Florentine" name="playerdata.dat">
+[Username]Florentine[/Username]
+[Coins]144[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Freddy116" name="playerdata.dat">
+[Username]Freddy116[/Username]
+[Coins]1573[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Black Ninja[/CardBattlesRank]</file>
+<file path="Users/GregTheGreat" name="playerdata.dat">
+[Username]GregTheGreat[/Username]
+[Coins]0[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Halzinger" name="playerdata.dat">
+[Username]Halzinger[/Username]
+[Coins]554[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Red Ninja[/CardBattlesRank]</file>
+<file path="Users/IntrinsicAnalysis" name="playerdata.dat">
+[Username]IntrinsicAnalysis[/Username]
+[Coins]1337[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Orange Ninja[/CardBattlesRank]</file>
+<file path="Users/Issac4747" name="playerdata.dat">
+[Username]Issac4747[/Username]
+[Coins]100[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Juniper" name="playerdata.dat">
+[Username]Juniper[/Username]
+[Coins]297[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Green Ninja[/CardBattlesRank]</file>
+<file path="Users/Kelvin17765" name="playerdata.dat">
+[Username]Kelvin17765[/Username]
+[Coins]113[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Yellow Ninja[/CardBattlesRank]</file>
+<file path="Users/KleinBallsDeep69" name="playerdata.dat">
+[Username]KleinBallsDeep69[/Username]
+[Coins]1823[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Black Ninja[/CardBattlesRank]</file>
+<file path="Users/Lucifer1873" name="playerdata.dat">
+[Username]Lucifer1873[/Username]
+[Coins]666[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Red Ninja[/CardBattlesRank]</file>
+<file path="Users/Mengsk" name="playerdata.dat">
+[Username]Mengsk[/Username]
+[Coins]1000[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Blue Ninja[/CardBattlesRank]</file>
+<file path="Users/Milligence" name="playerdata.dat">
+[Username]Milligence[/Username]
+[Coins]152[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Purple Ninja[/CardBattlesRank]</file>
+<file path="Users/Neopolitan" name="playerdata.dat">
+[Username]Neopolitan[/Username]
+[Coins]192[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]White Ninja[/CardBattlesRank]</file>
+<file path="Users/Ossas" name="playerdata.dat">
+[Username]Ossas[/Username]
+[Coins]1562[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]White Ninja[/CardBattlesRank]</file>
+<file path="Users/Otregon14" name="playerdata.dat">
+[Username]Otregon14[/Username]
+[Coins]14[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/PenguinMaster123" name="playerdata.dat">
+[Username]PenguinMaster123[/Username]
+[Coins]123[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Quartz563" name="playerdata.dat">
+[Username]Quartz563[/Username]
+[Coins]1666[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Black Ninja[/CardBattlesRank]</file>
+<file path="Users/RandolphTheGreat" name="playerdata.dat">
+[Username]RandolphTheGreat[/Username]
+[Coins]1123[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Purple Ninja[/CardBattlesRank]</file>
+<file path="Users/Rezxure" name="playerdata.dat">
+[Username]Rezxure[/Username]
+[Coins]1534[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Blue Ninja[/CardBattlesRank]</file>
+<file path="Users/Ringo1957" name="playerdata.dat">
+[Username]Ringo1957[/Username]
+[Coins]242[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/Sara1847" name="playerdata.dat">
+[Username]Sara1847[/Username]
+[Coins]1573[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Red Ninja[/CardBattlesRank]</file>
+<file path="Users/TibboH" name="playerdata.dat">
+[Username]TibboH[/Username]
+[Coins]859[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Orange Ninja[/CardBattlesRank]</file>
+<file path="Users/Tom1038" name="playerdata.dat">
+[Username]Tom1038[/Username]
+[Coins]1038[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Orange Ninja[/CardBattlesRank]</file>
+<file path="Users/Ulysses" name="playerdata.dat">
+[Username]Ulysses[/Username]
+[Coins]132[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Yellow Ninja[/CardBattlesRank]</file>
+<file path="Users/Vanadium" name="playerdata.dat">
+[Username]Vanadium[/Username]
+[Coins]23[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Green Ninja[/CardBattlesRank]</file>
+<file path="Users/Wallawallabingbang" name="playerdata.dat">
+[Username]Wallawallabingbang[/Username]
+[Coins]1408[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Blue Ninja[/CardBattlesRank]</file>
+<file path="Users/WreckerMan" name="playerdata.dat">
+[Username]WreckerMan[/Username]
+[Coins]297[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Purple Ninja[/CardBattlesRank]</file>
+<file path="Users/XenuTheMan" name="playerdata.dat">
+[Username]XenuTheMan[/Username]
+[Coins]1612[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Black Ninja[/CardBattlesRank]</file>
+<file path="Users/Yvonne19847" name="playerdata.dat">
+[Username]Yvonne19847[/Username]
+[Coins]2083[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]White Ninja[/CardBattlesRank]</file>
+<file path="Users/ZebrasAreCool" name="playerdata.dat">
+[Username]ZebrasAreCool[/Username]
+[Coins]122[/Coins]
+[Membership]Not Active[/Membership]
+[CardBattlesRank]Trainee[/CardBattlesRank]</file>
+<file path="Users/ZoltarTheGreat" name="playerdata.dat">
+[Username]ZoltarTheGreat[/Username]
+[Coins]207[/Coins]
+[Membership]Active[/Membership]
+[CardBattlesRank]Green Ninja[/CardBattlesRank]</file>
+
+<addWebServer name="Penguin Zone" url="Web/PenguinZone.html" />
+
+</Computer>
+

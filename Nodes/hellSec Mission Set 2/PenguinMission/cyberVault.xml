@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cyberVault"
+          name="Cyber-Security Agency Vault"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="3" >
+
+<adminPass pass="c54v4u17" />
+<ports>21, 22, 25, 1433, 80, 443</ports>
+<proxy time="1" />
+<portsForCrack val="4" />
+<trace time="150" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="cyberIRC" />
+
+<encryptedFile path="bin" name="WebServerWorm.dec" extension=".exe" ip="192.168.1.1" header="WebServerWorm">#WEB_CRACK#</encryptedFile>
+<encryptedFile path="bin" name="SSHCrack.dec" extension=".exe" ip="192.168.1.1" header="SSHCrack">#SSH_CRACK#</encryptedFile>
+<encryptedFile path="bin" name="FTPBounce.dec" extension=".exe" ip="192.168.1.1" header="FTPBounce">#FTP_CRACK#</encryptedFile>
+
+
+
+</Computer>

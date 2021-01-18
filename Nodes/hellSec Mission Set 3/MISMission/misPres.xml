@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="misPres"
+          name="MIS Presentations Server"
+          ip="29.192.501.394"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="MISPresentationsAreCool" />
+
+<ports>21, 22, 25, 80, 443, 6881</ports>
+<proxy time="2" />
+<portsForCrack val="6"/>
+<firewall level="7" solution="PRESENT"/>
+<trace time="150" />
+<admin type="none"/>
+
+<file path="home" name="TheoryOfUniverse.docx">Our whole Universe was in a hot, dense state 
+Then nearly 14 billion years ago, expansion started... Wait.
+Then the Earth began to cool 
+The autotrophs began to drool
+Neanderthals developed tools 
+We built a wall
+We built the pyramids!
+Math, science, history
+Unravelling the mysteries
+That all started with a Big Bang.
+BANG!</file>
+<file path="home" name="Magnets_How_Do_They_Work.docx">When one mommy magnet and one daddy magnet like each other, they attract each other. Then they stick together.
+I dunno why daddy magnets and daddy magnets can't go together, or mommy magnets and mommy magnets. I think magnets are homophobic. #GayMagnetPride</file>
+<file path="home" name="Is_God_Real.docx">I dunno, either he is or he isn't. Either way, at least we still have cat videos and porn.</file>
+<file path="home" name="Why_We_All_Love_Cats.docx">Because they're so damn adorable.
+Except the hairless ones, those can go back to whatever planet they came from.</file>
+
+<WhitelistAuthenticatorDaemon Remote="misWhitelist"/>
+
+</Computer>

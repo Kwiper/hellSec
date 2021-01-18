@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="muffatHome"
+          name="Steven Muffat Home PC"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" >
+<adminPass pass="password" />
+<ports>22, 25, 443</ports>
+<proxy time="2" />
+<portsForCrack val="3" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="???.dec" extension=".txt" ip="192.168.1.1" header="???" pass="rassilon">
+Mail: Muffat
+Pass: EBCMuffat</encryptedFile>
+
+<eosDevice name="Steven Muffat's ePad 2" id="muffatTablet" icon="tablet" empty="true" passOverride="alpine">
+    <note>???
+    Password is "rassilon"
+    Don't forget it</note>
+</eosDevice>
+
+</Computer>

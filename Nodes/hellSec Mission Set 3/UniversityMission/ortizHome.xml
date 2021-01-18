@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ortizHome"
+          name="Charlie Ortiz Home"
+          ip="190.172.44.12"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop"
+          type="2" >
+
+<adminPass pass="GeologyRocks" />
+<ports> 22, 25, 443</ports>
+<portsForCrack val="3" />
+<firewall level="7" solution="GEOLOGY"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<eosDevice name="Charlie ePhone 5" id="ortizPhone" icon="ePhone2" empty="true" passOverride="alpine">
+    <note>Whitelist
+Contact Turing for access to the whitelist</note>
+<mail username="Ortiz@halem.co.uk" pass="Halem-Prof2864" />
+</eosDevice>
+
+</Computer>
