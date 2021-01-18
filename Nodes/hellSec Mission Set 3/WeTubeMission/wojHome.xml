@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="wojHome"
+          name="Susan Wojcocko Home"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="2" >
+
+<adminpass pass="WeTubeCEO" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="3" />
+<firewall level="6" solution="WETUBE" additionalTime="0.2"/>
+
+<file path="home/Porn" name="WeTube_Staff.docx">#BINARY#</file>
+<file path="home/Porn" name="Meeting_Schedule.docx">#BINARY#</file>
+
+<encryptedFile path="home/Porn" name="FileDrop.dec" extension=".docx" ip="192.168.1.1" header="File Drop" pass="WojMaster">
+User: Wojcocko
+Pass: WeTubeCEO
+</encryptedFile>
+
+<eosDevice name="Susan Wojcocko ePhone 6S" id="wojPhone" icon="ePhone2" empty="true" passOverride="alpine">
+    <note>Password
+Encrypted file password is "WojMaster"</note>
+</eosDevice>
+
+</Computer>
