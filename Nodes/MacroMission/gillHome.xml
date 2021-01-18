@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="gillHome"
+          name="Gill Bates Home"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="zarkmuckerbergiscool" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="3" />
+
+
+<file path="home" name="email.txt">User: GillBates Pass:MacrosoftCEO</file>
+<file path="home" name="employees_to_fire.txt">
+Name: Ray Rory
+Reason: Wasting time on some stupid piece of tech
+
+Name: Mick Palmer
+ Reason: Drinking all the beer in the office fridge
+
+Name: Sara Jefferson
+Reason: Threatening to slit someone's throat during a meeting
+
+Name: Jackson Lance
+Reason: Accidentally burning his office space
+
+Name: Martin Hunter
+Reason: Spending too much time thinking about theoretical physics when he should have been focusing on his work
+
+Name: Rip Stein
+Reason: Messing with time
+
+Name: Nate Snart
+Reason: Annoying people with random history facts
+
+Name: Leonard Heywood
+Reason: Letting all the cold air out of the fridge
+</file>
+
+
+</Computer>

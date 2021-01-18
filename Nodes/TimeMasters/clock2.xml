@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock2"
+          name="2 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="Sd102dla" />
+
+<ports>1433, 25, 6881, 554</ports>
+<portsForCrack val="3" />
+<trace time="50" />
+<admin type="none"/>
+
+<file path="home" name="2_oclock.txt">0</file>
+
+</Computer>

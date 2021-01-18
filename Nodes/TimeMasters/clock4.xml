@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock4"
+          name="4 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="Ghd29dSa" />
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4" />
+
+<trace time="80" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="clock45" />
+
+<Memory>
+<Data>
+<Block>4:30</Block>
+<Block>Prevening</Block>
+</Data>
+</Memory>
+
+</Computer>
+

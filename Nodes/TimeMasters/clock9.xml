@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock9"
+          name="9 o'clock"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="sefh39LS" />
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="5"/>
+<admin type="none"/>
+
+<encryptedFile path="home" name="9_oclock.dec" extension=".txt" ip="192.168.1.1" header="9 o'clock" pass="time">
+6</encryptedFile>
+
+<Memory>
+<Data>
+<Block>9 o'clock</Block>
+<Block>What can fly, but has no wings?</Block>
+</Data>
+</Memory>
+
+</Computer>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="macroPatent"
+          name="Macrosoft Products Server"
+          ip="235.97.54.8"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="macrosoftR2-D2" />
+
+<ports>21, 22, 25, 80, 1433</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<firewall level="5" solution="MACRO" additionalTime="1.0"/>
+
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="bin" name="eosX11.dll">#BINARY#</file>
+<file path="bin" name="MacrOSXElCapitan.dll">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock10"
+          name="10 o'clock"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="fhueiw30"/>
+
+<ports>22, 25, 80, 1433, 554</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+<firewall level="5"/>
+
+<trace time="150"/>
+
+<admin type="none"/>
+
+<file path="home" name="10_oclock.txt">The physical body, which is a complex system of bones, muscles, organs, nerves and blood vessels developed for optimal interaction with the environment, follows standard natural laws and patterns that, while different between species, are similar to all animal life on the planet. It has been stated that, broken down to its basest components, the average adult human body is comprised of:
+Water (35 L) 
+Carbon (20 kg) 
+Ammonia (4 L) 
+Lime (1.5 kg)
+Phosphorous (800 g) 
+Salt (250 g)
+Saltpeter (100 g) 
+Sulfur (80 g) 
+Fluorine (7.5 g) 
+Iron (5 g) 
+Silicon (_ g) and fifteen traces of other elements.
+
+Something interesting to think about is, while the above is indeed what Edward and Alphonse thought was the correct assortment of chemicals, they were actually very wrong. Assuming that the Humans in Fullmental are similar or even equal to humans in real life then the actual list would have been as proceeds;
+Oxygen, 43kg  
+Carbon, 16kg  
+Hydrogen, 7kg  
+Nitrogen, 1.8kg  
+Calcium, 1kg 
+Phosphorus, 0.78kg  
+Potassium, 0.14kg 
+Sulfur, 0.14kg  
+Sodium, 0.10kg  
+Chlorine, 0.095kg  
+Magnesium, 0.019kg. 
+
+In other words its very possible that instead of needing a human soul, they simply got the wrong ingredients.</file>
+
+</Computer>

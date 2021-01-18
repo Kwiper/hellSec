@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="gillProxy"
+          name="Gill Bates Proxy Node"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="jevestobssucks" />
+
+<ports>21, 22, 25</ports>
+<proxy time="1" />
+<portsForCrack val="3" />
+
+<dlink target="gillHome" />
+<positionNear target="gillHome" position="1" total="3" extraDistance="0.1"/>
+
+</Computer>

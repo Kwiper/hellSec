@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock55"
+          name="5:30"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="Ghd83sjd" />
+
+<ports>6881, 554</ports>
+<proxy time="1" />
+<portsForCrack val="2" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="home/Look/at/the/first/letter/of/each" name="post.txt">#BINARY#</file>
+
+<IRCDaemon themeColor="67,204,148" name="5:30" needsLogin="false">
+    <user name="Cosmic" color="0,100,150"/>
+    <user name="Drasna" color="150,0,30"/>
+    <user name="Silica" color="60,130,25"/>
+
+    <post user="Cosmic">This discussion is pointless</post>
+    <post user="Silica">Interestingly enough, for once you're right</post>
+    <post user="Cosmic">Might I remind you, you often get things wrong</post>
+    <post user="Drasna">Everyone, calm down</post>
+    <post user="Silica">Listen, Cosmic, I didn't join this group to listen to your crap.</post>
+    <post user="Drasna">Oh, then what, pray tell did you join it for?</post>
+    <post user="Cosmic">Really gotta ask that question?</post>
+    <post user="Silica">Don't worry about it, you know what, this conversation is done.</post>
+</IRCDaemon>
+
+</Computer>
+
+<!--TO DO:
+Add puzzles for 6 o'clock till 12 o'clock
+Add a sequencer which leads you to the clock-->

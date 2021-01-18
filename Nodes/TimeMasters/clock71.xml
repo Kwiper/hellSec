@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock71"
+          name="7:15"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminpass pass="dgj2h83s" />
+
+<ports>22, 25, 80, 1433, 554</ports>
+<portsForCrack val="3" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="7:15.txt">V</file>
+
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clockHub"
+          name="Clock Face"
+          ip="12.12.12.12"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="TickTockGoesTheClock" />
+
+<ports>22, 443</ports>
+<proxy time="1" />
+<portsForCrack val="2" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="clock1" />
+<dlink target="clock2" />
+<dlink target="clock3" />
+<dlink target="clock4" />
+<dlink target="clock5" />
+<dlink target="clock6" />
+<dlink target="clock7" />
+<dlink target="clock8" />
+<dlink target="clock9" />
+<dlink target="clock10" />
+<dlink target="clock11" />
+<dlink target="clock12" />
+<positionNear target="clock1" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock2" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock3" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock4" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock5" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock6" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock7" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock8" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock9" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock10" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock11" position="1" total="3" extraDistance="0.1" force="false"/>
+<positionNear target="clock12" position="1" total="3" extraDistance="0.1" force="false"/>
+
+
+
+</Computer>

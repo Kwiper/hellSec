@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock6"
+          name="6 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="FLD29sh2"/>
+
+<ports>21, 22, 25, 80</ports>
+<proxy time="1" />
+<portsForCrack val="4"/>
+
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="6_oclock.txt" ip="192.168.1.1" header="6 o'clock" pass="password">2</encryptedFile>
+
+<eosDevice name="6 o'clock Tablet" id="clock6Tab" icon="tablet" empty="true" passOverride="alpine">
+<file path="eos/files" name="encryptedfile.txt">01110000 01100001 01110011 01110011 01110111 01101111 01110010 01100100</file>
+</eosDevice>
+
+</Computer>

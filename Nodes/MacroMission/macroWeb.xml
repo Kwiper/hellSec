@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<Computer id="macroWeb"
+          name="Macrosoft Web Server"
+          ip="252.167.29.12"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4" >
+
+<adminPass pass="macrosoftBB-8" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="0" />
+<portsForCrack val="3" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<dlink target="macroMain" />
+<dlink target="macroMail" />
+<dlink target="gillProxy" />
+<positionNear target="macroMain" position="1" total="3" extraDistance="0.1"/>
+<positionNear target="macroMail" position="1" total="3" extraDistance="0.1"/>
+<positionNear target="gillProxy" position="1" total="3" extraDistance="0.1"/>
+
+<file path="home" name="EmployeeNotice.txt">Please don't upload anything to this server. This is the web server and nothing should be changed without Gill Bates's authorization.</file>
+
+<addWebServer name="Macrosoft Website" url="Web/Macrosoft.html"/>
+
+</Computer>

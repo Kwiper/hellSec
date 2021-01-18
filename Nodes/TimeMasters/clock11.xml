@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock11"
+          name="11 o'clock"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="230edfh2" />
+
+<ports>21, 22, 25, 80, 443, 554</ports>
+<proxy time="2" />
+<portsForCrack val="6" />
+
+<file path="home" name="11_oclock.txt">..-. --- ..- .-.</file>
+
+</Computer>

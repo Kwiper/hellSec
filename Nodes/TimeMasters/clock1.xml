@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock1"
+          name="1 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="BqXSJjjJ"/>
+
+<ports>1433, 9418</ports>
+<portsForCrack val="1"/>
+<trace time="40"/>
+<proxy time="20"/>
+
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="1_oclock.txt">3</file>
+
+</Computer>

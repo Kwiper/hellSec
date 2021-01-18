@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock3"
+          name="3 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="ls28djt2" />
+
+<ports>21, 22, 443</ports>
+<proxy time="5" />
+<portsForCrack val="3" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="3_oclock.dec" ip="192.168.1.1" header="3 o'clock" pass="shame">
+2</encryptedFile>
+
+<eosDevice name="3 o'clock Phone" id="clock3Phone" icon="ePhone" empty="true" passOverride="alpine">
+<note>3 o'clock
+"I'm just a raft, floating on an ocean of pure _____"</note>
+</eosDevice>
+
+</Computer>

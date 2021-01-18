@@ -1,0 +1,22 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="hellRepo"
+          name="hellSec Repository"
+          ip="167.194.132.7"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="2">
+
+<adminPass pass="lucifer" />
+
+<ports>22</ports>
+
+<portsForCrack val="0" />
+
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<file path="bin" name="PortCrushers.txt">To use these executables, type the name of the exe file in your terminal. Press tab to auto-complete.</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+</Computer>

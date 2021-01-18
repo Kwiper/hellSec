@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hellDrop"
+          name="hellSec File Drop Server"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+<uploadServerDaemon name="hellSec File Drop" folder="ftp"
+                    needsAuth="false" color="38,201,155" hasReturnViewButton="true"/>
+
+<adminPass pass="pentacle" /> 
+
+<ports>22, 21, 80, 6881, 443, 25</ports>
+  <proxy time="3" />
+  <portsForCrack val="6" />
+  <firewall level="-1" />
+  <trace time="95" />
+  <admin type="none"/>
+
+  <file path="home" name="TheoryOfUniverse.docx">On the first day, the Flying Spaghetti Monster separated the water from the heavens. On the second -- because He could not tread water for long and had grown tired of flying -- He created the land and complemented it with a beer volcano. Satisfied, the Flying Spaghetti Monster overindulged in beer from the beer volcano and woke up hungover. Between drunken nights and clumsy afternoons, the Flying Spaghetti Monster produced seas and land (for a second time, because he forgot that he created it the day before) along with Heaven and a midget, which he named Man. Man and an equally short woman lived happily in the Olive Garden of Eden for some time until the Flying Spaghetti Monster caused a global flood in a cooking accident. (while emptying his Holy Pasta Pot of water, he did not pay attention to where this water was going)</file>
+
+    <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+<customthemefile path="sys" name="Tree_x-server.sys" themePath="Themes/Tree_x-server.xml"/>
+
+<dlink target="hellHub" />
+<dlink target="hellIRC" />
+
+<positionNear target="hellIRC" position="2" total="3" extraDistance="-0.2"/>
+<positionNear target="hellHub" position="1" total="3" extraDistance="-0.2"/>
+
+</Computer>

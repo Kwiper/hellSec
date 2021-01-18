@@ -1,0 +1,35 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<Computer id="hellHub"
+          name="hellSec Contract Hub"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="3" >
+
+
+<adminPass pass="ninecircles" />
+<ports>443, 21, 80, 6881, 1433</ports>
+  <portRemap>web=8080</portRemap>
+  <proxy time="2" />
+  <portsForCrack val="5" />
+  <firewall level="-1" />
+  <trace time="80" />
+ <admin type="fast" resetPassword="false" isSuper="false"/>
+
+ <account username="#PLAYERNAME#" password="hellSecFN-2199" type="3" />
+
+ <dlink target="hellIRC" />
+ <dlink target="hellDrop" />
+
+ <positionNear target="hellDrop" position="2" total="3" extraDistance="-0.2"/>
+<positionNear target="hellIRC" position="1" total="3" extraDistance="-0.2"/>
+
+<missionHubServer groupName="hellSec" 
+                  serviceName="hellSec Contract Hub" 
+                  missionFolderPath="Missions/MissionHub" 
+                  themeColor="82,5,1" 
+                  lineColor="171,12,0" 
+                  backgroundColor="20,20,20" 
+                  allowAbandon="false" />
+
+</Computer>

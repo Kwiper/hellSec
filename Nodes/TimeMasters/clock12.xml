@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock12"
+          name="12 o'clock"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="gdh391md"/>
+
+<ports>1433, 6881, 443, 554</ports>
+
+<portsForCrack val="4"/>
+
+<file path="home" name="12_oclock">Pokedex Number</file>
+<file path="home" name="Patient_Name">Wartortle</file>
+
+<HeartMonitor patient="Wartortle" />
+
+</Computer>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock45"
+          name="4:30"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="Prevening" />
+
+<ports>6881, 554, 443</ports>
+<proxy time="1" />
+<portsForCrack val="1000" />
+<trace time="150" />
+<admin type="none"/>
+
+<file path="home" name="4_oclock.txt">1</file>
+
+</Computer>
+

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clockVault"
+          name="Time Masters' Vault"
+          ip="302.152.956.348"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4" >
+
+
+<adminPass pass="ClockVault" />
+
+<ports>22</ports>
+<portsForCrack val="1"/>
+
+<file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+
+<LogoDaemon Name="Time Masters' Vault" ShowsTitle="true" TextColor="255,255,255,255" LogoImagePath="TimeMasters.png">
+-==========-
+Time Masters
+-==========-
+</LogoDaemon>
+
+</Computer>

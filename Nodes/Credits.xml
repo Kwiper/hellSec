@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits"
+          name="Credits Server"
+          ip="102.29.19.5"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4" >
+
+<adminPass pass="credits" />
+<ports>21, 22</ports>
+<portsForCrack val="1" />
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<file path="home" name="CreditsData.txt">
+%--- Hacknet: hellSec ---
+
+^Created by: Kwiper
+
+^Story by: Kwiper 
+
+^Graphic Design:
+hellSec Logo: Spiderbenb
+
+^Music:
+Aero Chord - Time Leap (NCS Release)
+Alan Walker - Force (NCS Release)
+HOME - If I'm Wrong
+HOME - Pyxis
+Tonspender - Old Tapes
+Waterflame - Grind District
+Waterflame - Stalker
+
+^Hacknet OST:
+Cinematrix - The Quickening
+Tonspender - Broken Boy
+Remi Gallego (The Algorithm) - Altitude Loss
+Cinematrix - Revolve (R Mix)
+
+^x-servers:
+Phoenix - Spiderbenb
+Tree - Spiderbenb
+Meme - Spiderbenb
+Helix - http://palandros.deviantart.com/art/Double-Helix-81840196
+Quartz - http://wallpapercave.com/w/8dKMrzT
+
+^Beta Testers:
+Xtra
+Quartz563
+CreepiX
+Vanth
+
+^Special Thanks:
+Matt Trobbiani - Creator of Hacknet 
+Quartz563 - For being a Quartz
+Fayti1703 - Bugging me about bugz 
+
+%hellSec
+
+%THANKS FOR PLAYING
+</file>
+
+<CreditsDaemon Title="Hacknet: hellSec Credits" ButtonText="End" ConditionalActionSetToRunOnButtonPressPath="Action/CreditAction.xml"/>
+
+</Computer>

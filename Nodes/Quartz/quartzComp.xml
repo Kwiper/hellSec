@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="quartzComp"
+          name="Quartz Battlestation"
+          ip="108.29.40.23"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="2" >
+
+<adminPass pass="draconis" />
+
+<ports>21, 22, 25, 80, 1433, 6881, 443, 554</ports>
+<proxy time="2" />
+<portsForCrack val="8"/>
+<firewall level="8" solution="DRACONIS"/>
+<admin type="progress" resetPassword="false" isSuper="false"/>
+
+<encryptedFile path="home" name="emaillog.dec" extension=".txt" ip="192.168.1.1" header="emaillog">
+Hello
+If you are reading this email, it means you have been selected to participate in a little experiment of ours.
+If you wish to proceed further, simply connect to this node:
+12.12.12.12
+
+Time's ticking...</encryptedFile>
+
+<customthemefile path="sys" name="Quartz_x-server.sys" themePath="Themes/Quartz_x-server.xml"/>
+
+</Computer>

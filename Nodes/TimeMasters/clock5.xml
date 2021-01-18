@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock5"
+          name="5 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminPass pass="hs93JSfa" />
+
+<ports>80, 1433, 554</ports>
+<proxy time="2" />
+<portsForCrack val="2" />
+<firewall level="5" additionalTime="2.0" />
+<admin type="none"/>
+
+<dlink target="clock55" />
+
+<eosDevice name="5 o'clock Phone" id="clock5Phone" icon="ePhone2" empty="true" passOverride="timelord">
+<file path="eos/files" name="5_oclock.txt">5</file>
+</eosDevice>
+
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clock7"
+          name="7 o'clock"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4" >
+
+<adminpass pass="dgjih83s" />
+
+<ports>22, 25, 80, 1433, 554</ports>
+<portsForCrack val="5" />
+<admin type="fast" resetPassword="false" isSuper="false"/>
+
+<dlink target="clock71" />
+<dlink target="clock75" />
+<dlink target="clock74" />
+
+<eosDevice name="7 o'clock Phone" id="clock7Phone" icon="ePhone2" empty="true" passOverride="V46">
+<file path="eos/notes" name="7_oclock.txt">9</file>
+</eosDevice>
+
+</Computer>
