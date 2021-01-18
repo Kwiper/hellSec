@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finalMissionNext" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="getadmin" target="z3r0Hub"/>
+<goal type="delay" time="5.0"/>
+</goals>
+
+<missionStart val="1" suppress="true">changeSong</missionStart>
+<nextMission IsSilent="false">Missions/MissionHub/FinalMission/FinalMissionHub.xml</nextMission>
+
+<posting title="#Z3r0 Hour# [PRIVATE]">
+I had a huge feeling there was something wrong Z3r0 was hiding. And I think I've found it.
+After doing some digging around, I found Z3r0's network. It seems like a very complicated network, and I can't do this on my own.
+This is very important, and it could go towards proving Z3r0's guilt about something. I don't know what, but I know he's hiding something.</posting>
+
+<email>
+<sender>Quartz</sender>
+<subject>Z3r0 Hour - Inception</subject>
+<body>Thank you for doing this, #PLAYERNAME#.
+So for a while now, I've been scouting Z3r0 on my own, and I think I finally found something worth investigating.
+However, I can't hack it on my own, which is why I asked you. I trust you, #PLAYERNAME# and I know this is our only chance to find out what Z3r0 is up to once and for all.
+I've found two gateway nodes that seem to link to Z3r0's network. I'll let you handle one, let me know when you find anything interesting.
+
+-Quartz</body>
+<attachments>
+<link comp="z3r0Gateway"/>
+</attachments>
+</email>
+</mission>

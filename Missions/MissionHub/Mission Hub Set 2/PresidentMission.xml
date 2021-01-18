@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="PresidentMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+
+<goal type="filedeletion" target="mansionComp" file="project_m.dat" path="home"/>
+
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/PresidentAction.xml</missionStart>
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Project: Infiltration" >
+The federal government has a secret that could be potentially dangerous. We would like you to delete it.</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Project: Infiltration</subject>
+<body>Be careful with this one.
+While what we are doing isn't really considered legal, this mission really pushes that boundary.
+A reliable source of mine has informed me that the federal government is hiding something that could change the world for the worse, something called Project: M.
+Your mission is to infiltrate the government and scout for any traces of this project. 
+If you find anything related to this "Project: M," DELETE IT IMMEDIATELY.
+Remember to cover your tracks well. We don't want the government to track you down.
+
+Good luck,
+-Z3r0</body>
+
+<attachments>
+    <link comp="drumpComp" />
+</attachments>
+</email>
+</mission>

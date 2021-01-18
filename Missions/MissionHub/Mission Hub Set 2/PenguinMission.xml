@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="penguinMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+
+<nextMission IsSilent="false">Missions/MissionHub/Mission Hub Set 2/PenguinMissionNext.xml</nextMission>
+
+<posting title="Waddling On" reqs="Trojan1,Trojan2,Trojan3" requiredRank="8" >
+A client has asked us to edit their Penguin Zone account and temporarily bring the servers down... for some reason.</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Waddling On</subject>
+<body>Bit of a strange request, but hey, it's what we do.
+A Penguin Zone user by the name of "Juniper" has asked us to edit their account details to give them exactly 1000 coins and the "Black Ninja" rank.
+They have also asked us to temporarily bring down the Penguin Zone servers, because, quote "it would mean the creators would have to keep the game running"
+I don't know. By the looks of things, Penguin Zone's security is tight, so if you can't get in, reply to this email and we'll figure something out. If you can get in, good on you.
+
+Good luck, I guess
+-Z3r0</body>
+
+<attachments>
+<link comp="penguinWeb" />
+<note title="Mission details">Scout Penguin Zone's server to see if you can find a way to get in
+If you can't get in, reply to this email and we'll figure something out.
+Once you get in, change Juniper's coins to 1000 and rank to "Black Ninja"</note>
+</attachments>
+</email>
+</mission>

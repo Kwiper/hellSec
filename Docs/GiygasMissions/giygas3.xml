@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="giygas3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Giygas Mission 201">
+Followers of Giygas,
+Your mission is as follows:
+Find a man who goes by Mr. Minch. He is invaluable to our plans.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="1.0">These missions just keep on coming, huh</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="4.0">And they keep getting harder</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="7.0">I wonder how long it'll be until our next group mission</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="10.0">Can you really call them "group" missions though?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="13.0">Based on that first group mission</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="16.0">Seems more like a race to see who can complete it first</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="20.0">Haha, yeah</AddIRCMessage>
+</Instantly>
+ 
+</ConditionalActions>

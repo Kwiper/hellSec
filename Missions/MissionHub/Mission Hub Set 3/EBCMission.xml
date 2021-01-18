@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ebcMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+
+<goal type="filedownload" target="ebcVault" file="Ep_FINALE_Script.docx" path="Shows/Professor_What/Season_10"/>
+<goal type="fileupload" target="hellDrop" file="Ep_FINALE_Script.docx" path="home" destTarget="hellDrop" destPath="ftp/Uploads"/>
+
+</goals>
+
+<missionEnd>loadConditionalActions:Action/EBCAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="An Adventure in Time and Space">
+The new season of Professor What is out, and as a huge fan, your mission is to infiltrate the EBC and procure a copy of the finale script
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>An Adventure in Time and Space</subject>
+<body>#PLAYERNAME#,
+As a huge fan of the show Professor What, a show about a man who travels with people all around time and space in a suitcase that's bigger on the inside, I feel this mission is more of a personal request.
+That said, your mission is as follows: Infiltrate the EBC servers and try to find a script for the season 10 finale episode of Professor What.
+Once you manage to download a copy, upload it to the drop server.
+
+Good luck,
+-Z3r0</body>
+
+<attachments>
+<link comp="ebcHub" />
+</attachments>
+</email>
+</mission>

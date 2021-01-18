@@ -1,0 +1,45 @@
+config playerComp morpheusHome 0.2 $#%#$
+connect $#%#$
+hideRam $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 2 $#%#$
+delay 1 $#%#$
+writel Hello. $#%#$
+delay 1 $#%#$
+writel My name is Morpheus. $#%#$
+delay 1 $#%#$
+writel You must be one of Z3r0s $#%#$
+delay 1 $#%#$
+writel Accomplices. $#%#$
+delay 1 $#%#$
+writel I have but one thing to say to you. $#%#$
+delay 2 $#%#$
+writel DO $#%#$
+delay 0.5 $#%#$
+writel YOU $#%#$
+delay 0.5 $#%#$
+writel KNOW $#%#$
+delay 0.5 $#%#$
+writel WHO $#%#$
+delay 0.5 $#%#$
+writel YOU $#%#$
+delay 0.5 $#%#$
+writel ARE $#%#$
+delay 0.5 $#%#$
+writel MESSING $#%#$
+delay 0.5 $#%#$
+writel WITH $#%#$
+delay 2 $#%#$
+writel Goodbye. $#%#$
+delay 2 $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+delay 1 $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+disconnect $#%#$

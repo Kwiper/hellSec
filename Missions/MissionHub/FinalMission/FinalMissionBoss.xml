@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finalMissionBoss" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="clearfolder" target="z3r0Core" path="Project_M"/>
+<goal type="filedeletion" target="z3r0Core" file="Server.bin"/>
+<goal type="clearfolder" target="z3r0Backup" path="Project_M"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/FinalActionBoss.xml</missionStart>
+<nextMission IsSilent="true">Missions/MissionHub/FinalMission/FinalMissionFinish.xml</nextMission>
+
+<email>
+<sender>NONE</sender>
+<subject>NONE</subject>
+<body>NONE</body>
+<attachments>
+</attachments>
+</email>
+</mission>
+
+<!--Need to add successful complete action/mission and fail action/mission-->

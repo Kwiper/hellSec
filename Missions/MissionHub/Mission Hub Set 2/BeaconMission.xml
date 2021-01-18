@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="beaconMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filechange" target="schoolReport" file="Report.txt" path="Reports/TNanderson" keyword=": A" removal="true" caseSensitive="true"/>
+<goal type="filechange" target="schoolReport" file="Report.txt" path="Reports/TNanderson" keyword=": F"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/BeaconAction.xml</missionStart>
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Academic Retribution" >
+There's a script kiddie who's been annoying us lately. We want you to take care of him.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Academic Retribution</subject>
+<body>Ok.
+There's this script kiddie who's been annoying us a lot lately. He must be new to this, because we tracked him to his home server.
+His name is Thomas Nanderson, and we want you to teach him a lesson in who not to mess with. From the looks of things, he's still a student, so why don't we change all the A's he has into F's.
+
+-Z3r0</body>
+
+<attachments>
+<link comp="thomasHome" />
+</attachments>
+</email>
+</mission>

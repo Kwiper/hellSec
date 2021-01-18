@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+</Instantly>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Morpheus3" />
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="misMissionNext" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="fileupload" target="misPres" file="TheoryOfUniverse.docx" path="home" destTarget="misPres" destPath="home"/>
+</goals>
+
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Theory of Everything</subject>
+<body>Ok.
+World-famous scientist Stephen Hawkins is about to present his theory of the universe in front of the Massachusetts Institute of Science.
+This is a really big deal. So, since part of our faction IS to mess people up, why don't we change his presentation a bit? On the drop server, you will find a file called TheoryOfUniverse.docx. It's just a little thing I've been working on in my spare time.
+Download that file and navigate your way to where Hawkins' presentation is stored. Delete that presentation and replace it with the one you download from the drop server. They won't even notice.
+
+Have fun,
+-Z3r0</body>
+<attachments>
+<note title="Mission Details">Download TheoryOfUniverse.docx from the drop server 
+Find where Hawkins' presentation is stored (should also be called TheoryOfUniverse.docx)
+Replace that file with the one downloaded from the drop server.</note>
+<link comp="hawkinsComp"/>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="nickMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+
+<goal type="filedeletion" target="nickComp" file="hellSecInfo.docx" path="home"/>
+<goal type="filedeletion" target="nickProxy" file="hellSecInfo.docx" path="home"/>
+
+</goals>
+
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="In the Shadows" >
+Someone has uncovered some... information regarding hellSec and its motives that we wouldn't want out in the open.
+We want you to delete all trace of this evidence.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>In the Shadows</subject>
+<body>Hey,
+This guy named Nick Smith has uncovered some information regarding our little faction and I want you to remove all evidence of it.
+Delete any file you find that has the name "hellSec" in the title, and BE THOROUGH.
+We don't want this information going out to the public just yet.
+
+Watch out for proxies, too.
+
+Good luck,
+-Z3r0
+</body>
+
+<attachments>
+<link comp="nickComp" />
+<note title="Proxies">You may run in to proxies. To bypass them, you will need to set up shells on nodes you have admin access to using the command "shell"</note>
+</attachments>
+</email>
+</mission>

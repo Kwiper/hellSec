@@ -1,0 +1,24 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="1.0">Shitshitshitshit</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="4.0">What's going on?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="8.0">You know that Morpheus dude #PLAYERNAME# went after?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="12.0">Sure</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="15.0">He found me</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">Why in the hell would you go after him?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="21.0">I don't know, I thought he might be hiding something</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="30.0">HA!</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="33.0">?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="36.0">Trapped him</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="39.0">In your FACE Morpheus!</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="42.0">gg</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="45.0">Now I just gotta keep a trap up at all times in case he comes back</AddIRCMessage>
+</Instantly>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Morpheus1" />
+</Instantly>
+
+</ConditionalActions>

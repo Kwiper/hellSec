@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finalMissionFinish" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/FinalActionFinish.xml</missionStart>
+<nextMission IsSilent="true">Missions/MissionHub/ClockMission/ClockMission.xml</nextMission>
+
+<email>
+<sender>NONE</sender>
+<subject>NONE</subject>
+<body>NONE</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,216 @@
+<CustomFaction name="hellSec" id="hellSec" playerVal="0">
+
+<Action ValueRequired="1">
+<RunFunction FunctionName="setHubServer:hellHub" />
+<RunFunction FunctionName="setAssetServer:hellDrop" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 1/PetMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 1/NickMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 1/EastboroMission.xml" TargetComp="hellHub" />
+<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="hellDrop" TargetFolderpath="bin" />
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="3.0">*** @#PLAYERNAME# HAS JOINED @channel ***</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="7.0">Hey, you two, say hi to @#PLAYERNAME#, our newest recruit!</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="10.0">Heyyy, welcome to hellSec! You're the fourth one through!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="13.0">Heyo, @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="15.0">We really hope you enjoy your stay here at hellSec</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="25.0">Now, to business, @channel</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="30.0">New mission, @Z3r0?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="33.0">Not quite.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="35.0">I have a surprise for you all.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="40.0">New toy?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="43.0">Yep!</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="45.0">One of my colleagues provided us with an all-new port crusher</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="48.0">Awesome, that'll be very useful for future missions.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="51.0">Yeah, I've uploaded it to the drop server for you guys to download.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="59.0">SMTPOverflow? That's pretty neat.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="62.0">It'll take up more RAM than your current port crushers, though, so use it wisely.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="65.0">@channel New missions have been posted btw.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="68.0">Sweet, time to test this baby out!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="71.0">Fun.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="2">
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="1.0">Hey, @Quartz</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="4.0">Hmm?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="7.0">You ever wonder why on the mission hub</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="10.0">There's a list of random people who aren't even part of hellSec?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="13.0">Idk, that is pretty weird</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="16.0">Like, who the hell is this Bit person?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="20.0">Like I said, I dunno, pretty weird.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="3">
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="1.0">Shit!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="5.0">What's wrong @Z3r0?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="10.0">Ran into a port we don't have the tools to crack yet.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="15.0">Well... can't ya just ask your "colleague" again for a new port crusher designed to crack that port?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="20.0">I could, but the thing is I'd have to do a favour for him.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="23.0">And those "favours" often implicate me doing something embarassing on camera for him.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="26.0">Such as...?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="30.0">Reading a chapter of a sappy vampire book while wearing a dress.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="33.0">Ah.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="38.0">Well, why don't you be a good little boy and get us that new port crusher.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="41.0">It would be REALLY useful for future missions :)</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="44.0">...</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="48.0">I really regret forming this group sometimes.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="51.0">It isn't the group. It's me.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="54.0">...</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="4">
+<RunFunction FunctionName="changeSong" FunctionValue="9" />
+<LoadMission MissionName="Missions/MissionHub/Mission Hub Set 1/MacroMission.xml" />
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="3.0">*** @H3l1x HAS JOINED @channel ***</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="6.0">Heyy, @H3l1x, glad you could make it.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="9.0">Welcome to hellSec, @H3l1x!</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="15.0">Err, @Quartz, you gonna welcome H3l1x?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="18.0">Hmm? Sorry, I was just finishing up my mission.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="21.0">Welcome, @H3l1x</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="24.0">Hey, guys, happy to be here!</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="27.0">I hope we can do good things together</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="30.0">Awesome, now that we're all here, it's time for our first team mission.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="34.0">Damn, I join like 30 secs ago and already we're doing a team mission? Sweet</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="38.0">Yep. So here are the details.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="41.0">Macrosoft has just unveiled its newest line of ePhones</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="45.0">So what a perfect time to infiltrate its servers to procure us a copy of eosDeviceScan</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="48.0">What does eosDeviceScan do, @Z3r0?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="51.0">Based on my sources, it will allow us to scan for any eos device.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">So ePhones, ePads, those things?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="57.0">Yeah</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="60.0">Well, I'm down. I'm ready to see how you guys work as a team.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="65.0">Alright, well the mission is as follows:</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="68.0">All of you will infiltrate Macrosoft's servers.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="71.0">Be prepared for any security measures Macrosoft may throw up at you.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="74.0">Notify us once you manage to procure a copy of eosDeviceScan</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="77.0">Make sure to clear ALL your logs. We don't want Macrosoft tracking the hack back to us.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="78.0">Err, question</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="80.0">Yes, @Quartz?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="85.0">What happened to that port crusher you were gonna ask your colleague for?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="87.0">I feel like that's important for our mission.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="90.0">You let me take care of that.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="93.0">For now, you guys have a mission to complete.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="96.0">I'll link you guys to Macrosoft's web server in a moment. Godspeed, @channel</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="98.0">Good luck, guys.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="100.0">!ATTACHMENT:link#%#Macrosoft Web Server#%#252.167.29.12</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="5">
+<RunFunction FunctionName="playCustomSong:Music/HOME_-_Pyxis.ogg" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/SSLMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/PenguinMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/BankMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/BeaconMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/WarehouseMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 2/PresidentMission.xml" TargetComp="hellHub" />
+<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="hellDrop" TargetFolderpath="bin" />
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="1.0">*** @channel @#PLAYERNAME# HAS COMPLETED THE MISSION ***</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="4.0">Heyy, nice work!</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="7.0">Great job, @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="10.0">Nice, @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="12.0">Damn, I wanted to get to it first :P</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="15.0">GG, @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="18.0">eosDeviceScan, huh? Can't wait to try this out.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="21.0">Thank you, all of you. Without you guys, this mission would never have been a success.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="24.0">Now, @Z3r0, where's that new port crusher you were working on getting?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="28.0">Yeah, it might take a while to get that, actually</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="30.0">Soon, hopefully</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="33.0">It better be soon.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="35.0">Oookaaay, what's next on the bucket list for hellSec?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="38.0">More missions, I guess, unless @Z3r0 has other plans for us?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="41.0">No, no plans for you guys yet</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="45.0">While you guys wait for me to get this new port crusher, why don't you all do a few missions?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="48.0">Sounds good.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="51.0">Will do, boss</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">Awesome.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="58.0">Oh yes, before I forget @channel</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="61.0">Default admin pass for all eos devices is "alpine"</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="65.0">Yeah, cheers</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="6">
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="1.0">Who even are these people on the mission hub?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="4.0">IKR</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="8.0">It's so strange that there are at least like 20 people</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="11.0">On the mission hub server</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="13.0">Who aren't even part of this faction</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="16.0">Should we ask Z3r0 about it?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="19.0">Couldn't hurt</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="22.0">Thing is, Z3r0 hardly ever tells us anything.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="25.0">Sure he does</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="28.0">He tells us about... our missions</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="31.0">My point exactly.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="7">
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="1.0">What do you mean I don't tell you guys anything?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="4.0">I tell you everything you need to know</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="7.0">Everything? What about your "colleague"</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="10.0">I feel like that's important to know</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="13.0">So we could HELP you get that port crusher we so desperately need.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="16.0">Look, I got it covered, don't worry about it</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="20.0">If I need your help in getting it, I'll be sure to ask you, ok?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="24.0">Hmm...</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="8">
+<RunFunction FunctionName="playCustomSong:Music/Alan_Walker_-_Force.ogg" />
+<AddAsset FileName="NetmapOrganizer.exe" FileContents="#NETMAP_ORGANIZER_EXE#" TargetComp="hellDrop" TargetFolderpath="bin" />
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="1.0">Hey @channel</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="4.0">Guess what I found</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="7.0">I dunno, what did you find?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="10.0">Look in the drop server :)</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="17.0">Oh shit</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="20.0">A netmap organizer?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="23.0">Yeah</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="27.0">Sweet, I needed one of these</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="30.0">With my netmap being all cluttered and shit</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="33.0">Hey thanks @H3l1x, saves me having to get one myself!</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="36.0">Yeah, no problem</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="39.0">Hey, where's Quartz?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="42.0">Probably still on his mission. I'll be sure to tell him about this</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="45.0">Nah, just finished it.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="48.0">Looks snazzy, @H3l1x</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="51.0">You're all most welcome.</AddIRCMessage>
+</Action>
+
+<Action ValueRequired="9">
+</Action>
+
+<Action ValueRequired="10">
+</Action>
+
+<Action ValueRequired="11">
+<RunFunction FunctionName="playCustomSong:Music/Tonspender_-_Old_Tapes.ogg" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/MISMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/MusicMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/H3l1xMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/UniMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/WeTubeMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/CultMission.xml" TargetComp="hellHub" />
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/EBCMission.xml" TargetComp="hellHub" />
+</Action>
+
+<Action ValueRequired="12">
+</Action>
+
+<Action ValueRequired="13">
+</Action>
+
+<Action ValueRequired="14">
+</Action>
+
+<Action ValueRequired="15">
+</Action>
+
+<Action ValueRequired="16">
+<AddMissionToHubServer MissionFilepath="Missions/MissionHub/FinalMission/FinalMissionNext.xml" TargetComp="hellHub" />
+</Action>
+
+<Action ValueRequired="17">
+</Action>
+
+<Action ValueRequired="18">
+</Action>
+
+
+
+</CustomFaction>

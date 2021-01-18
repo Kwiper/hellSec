@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Waterflame_-_Stalker.ogg" />
+</Instantly>
+ 
+</ConditionalActions>

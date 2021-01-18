@@ -1,0 +1,37 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/MorpheusHack.txt" DelayHost="hellIRC" Delay="30.0" SourceComp="morpheusHome" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" delay="1.0">@channel Check the drop server</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" delay="6.0">Holy shit</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="9.0">Is this it? The new port crusher?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="12.0">Yep</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="15.0">Had a little help from @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="17.0">Didn't think to ask any of us for help?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="20.0">I did</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="23.0">But then I considered that you probably would have laughed at me if I asked for help from you</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="25.0">All of you</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="27.0">I see</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="30.0">Well, I suppose there's nothing to do but test this out.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="33.0">Yep.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="40.0">Ah shit, #PLAYERNAME#'s being hacked.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="43.0">Dammit, must've been Morpheus</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="46.0">Morpheus?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="49.0">Should we help #PLAYERNAME# or something?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="52.0">Nah, let it play out. He should be fine in a few</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">Ok, cut the shit</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="58.0">Who's this Morpheus?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="60.0">He's... my colleague</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="63.0">I'll explain things a bit later.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="65.0">Promise</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="68.0">What are you not telling us, Z3r0?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="71.0">Trust me, it's fine.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="74.0">Look, #PLAYERNAME# is fine now</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="77.0">I gotta go deal with Morpheus now.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="80.0">Fucking hell</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="84.0">Glad you're back with us, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="87.0">Yes, welcome back.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="90.0">Listen, you guys do a few missions while I go deal with something.</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

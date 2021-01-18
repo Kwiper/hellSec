@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="musicMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="fileupload" target="musicNode" file="Checkmate.aac" path="home" destTarget="musicNode" destPath="Releases"/>
+    </goals>
+
+
+<missionEnd>loadConditionalActions:Action/MusicAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Musical Ransom" reqs="H3l1x" requiredRank="16" >
+A popular music label has one of their songs held for ransom. They have asked us to retrieve it for them</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Musical Ransom</subject>
+<body>This one's from a client again.
+Popular music label Beastdog has reported one of their songs held for ransom by a group called WannaDie. The group in question is asking for a $100,000 ransom fee to get their song back.
+The song is called Checkmate, and Beastdog has asked us to retrieve it for them. Your mission is to find where WannaDie is located, track down Checkmate and upload it to Beastdog's Releases folder.
+
+Good luck,
+-Z3r0</body>
+
+<attachments>
+<note title="Mission Details">Find where WannaDie is located 
+Snag Checkmate from them 
+Upload it to /Releases on Beastdog's server</note>
+<link comp="musicNode" />
+</attachments>
+</email>
+</mission>

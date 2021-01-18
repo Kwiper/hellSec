@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="uniMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="wipedegrees" owner="Laura Nakamura"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Action/UniAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Clean Slate">
+An old friend has asked me to remove her Bachelor's Degree from the record. She wants to start a new degree with a clean slate.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Clean Slate</subject>
+<body>I have an old friend who regrets doing a Bachelor's Degree in a certain subject.
+Her name is Laura Nakamura, and she did a degree in Geology. Looking back, she thinks it probably wasn't the best choice for her future. Can't really blame her, though. Geology. Not a real science.
+The record is up on the Universal Academic Database, but in order to get into it, you'll need a username and password. I recommend taking a look at her professor.
+Find her Geology Professor, track down his account details for the Academic Database and remove her degree in Geology.
+
+Godspeed,
+-Z3r0</body>
+<attachments>
+    <note title="Mission Details">Find Laura Nakamura's professor 
+Navigate your way through the system to find his account details to the Academic Databse 
+Wipe Laura's degree from the system</note>
+    <link comp="academic" />
+    <link comp="halemClass" />
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="h3l1xMissionNext" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="filedeletion" target="morpheusCore" file="MorpheusCore.exe" path="Core"/>
+    <goal type="delay" time="2.0"/>
+    </goals>
+
+<missionEnd val="3">changeSong</missionEnd>
+<nextMission IsSilent="false">Missions/MissionHub/Mission Hub Set 3/H3l1xMissionEnd.xml</nextMission>
+
+<email>
+<sender>H3l1x</sender>
+<subject>Teamwork contd.</subject>
+<body>Guess our paths converged here. 
+Take a look at this new port crusher. Holy damn, this'll be useful. There's also this IP here which might lead to the Core server. I just tried it though, it's whitelisted.
+I found something else on the other proxy node that I think you might find interesting. It appears to be an IP to another whitelist server, but it just so happens to be whitelisted itself.
+See if you can find a way to disable that whitelist. Maybe there's an eos device connected, or some deleted file.
+
+-H3l1x
+</body>
+
+<attachments>
+<link comp="morpheusWhitelist2" />
+</attachments>
+</email>
+</mission>

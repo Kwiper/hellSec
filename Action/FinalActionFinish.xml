@@ -1,0 +1,22 @@
+<ConditionalActions>
+<Instantly>
+<CancelScreenBleedEffect />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7" />
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="5.0">*** @Z3r0 HAS BEEN KICKED ***</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="10.0">We did it...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="15.0">Project M is no more</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="20.0">#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="23.0">Thank you.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="28.0">Thank you so much.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="32.0">Without you...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="38.0">Who knows what Z3r0 could have done</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="40.0">So...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="45.0">Thanks.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="50.0">I'll take care of things from here</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">It was nice meeting you, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="60.0">Be safe, ok?</AddIRCMessage>
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="65.0">!ATTACHMENT:link#%#Credits#%#102.29.19.5</AddIRCMessage>
+</Instantly>
+
+
+</ConditionalActions>

@@ -1,0 +1,26 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="1.0">You guys ever feel</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="4.0">Like super bored sometimes</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="7.0">And to try to end your boredom you just sorta...</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="10.0">Sit there and contemplate existence?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="13.0">No, not really</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="17.0">Whenever I feel bored, I watch anime</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="20.0">What</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="24.0">I thought you were cool, man!</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="27.0">I never took you for a weeb</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="31.0">I'm not a weeb...</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="33.0">Keep telling yourself that</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="36.0">Hey, you know, I know this perfect place for people like you</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="39.0">https://www.3chan.org/aco/</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="42.0">Fuck you</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="46.0">Haha</AddIRCMessage>
+</Instantly>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Morpheus2" />
+</Instantly>
+ 
+</ConditionalActions>

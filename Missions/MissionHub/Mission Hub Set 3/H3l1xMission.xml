@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="h3l1xMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="getadmin" target="morpheusGateway"/>
+    <goal type="delay" time="2.0"/>
+    </goals>
+
+<missionStart suppress="true">playCustomSong:Music/Waterflame_-_Stalker.ogg</missionStart>
+<nextMission IsSilent="false">Missions/MissionHub/Mission Hub Set 3/H3l1xMissionNext.xml</nextMission>
+
+<posting title="Teamwork" reqs="Morpheus1,Morpheus2,Morpheus3,Morpheus4" requiredRank="14" >
+You will be teaming up with another agent to bring Morpheus down once and for all.
+</posting>
+
+<email>
+<sender>H3l1x</sender>
+<subject>Teamwork</subject>
+<body>Hey, #PLAYERNAME#
+Z3r0 already briefed me on this mission. We're gonna team up to take down Morpheus. Z3r0 has gotten sick of Morpheus throwing us around, so it's time we got payback.
+Basically, Moprheus' system runs from a core server. We take that down, we take down Morpheus. Z3r0 provided me with two access points we could start with. I'll break into one, you break into the other.
+
+Good luck,
+-H3l1x 
+</body>
+
+<attachments>
+    <note title="Mission Details">Find Morpheus' Core server and take it down.</note>
+    <link comp="morpheusProxy3" />
+</attachments>
+</email>
+</mission>

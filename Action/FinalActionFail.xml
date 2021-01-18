@@ -1,0 +1,5 @@
+<ConditionalActions>
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/Z3r0Hack.txt" SourceComp="z3r0Core" TargetComp="playerComp" RequireLogsOnSource="false"/>
+</Instantly>
+</ConditionalActions>

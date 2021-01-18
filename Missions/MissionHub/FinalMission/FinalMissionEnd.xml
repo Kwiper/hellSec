@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="finalMissionEnd" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="delay" time="53.1"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/FinalAction.xml</missionStart>
+<nextMission IsSilent="false">Missions/MissionHub/FinalMission/FinalMissionPre.xml</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Z3r0 Hour - Conclusion</subject>
+<body>This... this is sick.
+I can't believe Z3r0 would be a part of something like this. I know, our job requires us to have illegal access to computers but this... Takes it to another level.
+With this Z3r0 could steal government secrets within seconds. He could bring down the entire world with this one project.
+This is it. We have to stop Z3r0. Come back to hellSec. It's time for a much needed talk.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

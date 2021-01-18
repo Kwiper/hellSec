@@ -1,0 +1,86 @@
+config playerComp morpheusCore 0.1 $#%#$
+connect $#%#$
+hideRam $#%#$
+openPort 21 $#%#$
+stopMusic $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+clearTerminal $#%#$
+write = $#%#$
+write = $#%#$
+write = $#%#$
+write I $#%#$
+write N $#%#$
+write I $#%#$
+write T $#%#$
+write I $#%#$
+write A $#%#$
+write L $#%#$
+write I $#%#$
+write Z $#%#$
+write E $#%#$
+write $#%#$
+write F $#%#$
+write A $#%#$
+write I $#%#$
+write L $#%#$
+write S $#%#$
+write A $#%#$
+write F $#%#$
+write E $#%#$
+write = $#%#$
+write = $#%#$
+write = $#%#$
+delay 1 $#%#$
+delay 2 $#%#$
+writel Hello. $#%#$
+delay 1 $#%#$
+writel If you are reading this $#%#$
+delay 1 $#%#$
+writel You have activated the Morpheus Core Failsafe $#%#$
+delay 1 $#%#$
+writel Which means you have deactivated the Morpheus Core. $#%#$
+delay 1 $#%#$
+writel Which also means $#%#$
+delay 1 $#%#$
+writel Your node will be disabled. $#%#$
+delay 1 $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+writel $#%#$
+write G $#%#$
+delay 0.2 $#%#$
+write O $#%#$
+delay 0.2 $#%#$
+write O $#%#$
+delay 0.2 $#%#$
+write D $#%#$
+delay 0.2 $#%#$
+write B $#%#$
+delay 0.2 $#%#$
+write Y $#%#$
+delay 0.2 $#%#$
+write E $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+delete /sys x-server.sys $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+disconnect $#%#$
+
+
+
+
+

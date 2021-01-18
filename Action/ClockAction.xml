@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnConnect target="clockHub" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/Waterflame_-_Grind_District.ogg"/>
+</OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<LaunchHackScript Filepath="HackerScripts/MorpheusEndHack.txt" DelayHost="hellIRC" Delay="15.0" SourceComp="morpheusCore" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<LaunchHackScript Filepath="HackerScripts/H3l1xHelp.txt" DelayHost="hellIRC" Delay="80.0" SourceComp="h3l1xNode" TargetComp="playerComp" RequireLogsOnSource="false"/>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="1.0">We did it</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="5.0">We took down Morpheus</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="8.0">Well, he's taken care of now</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="11.0">Thanks, @H3l1x and @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="15.0">Haha, no problem</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="18.0">Crap.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="21.0">#PLAYERNAME# is being hacked by Morpheus again</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="25.0">Again?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="30.0">Should've known Morpheus would have some kind of failsafe installed</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="34.0">H3l1x, go investigate. Looks like Morpheus isn't holding back this time</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="39.0">Can do.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="90.0">Alright, took a look, and it seems #PLAYERNAME#'s x-server was deleted</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="95.0">Don't worry though, #PLAYERNAME# should be fine in just a moment</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="100.0">Thank you, H3l1x</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="105.0">Looks like #PLAYERNAME# is back</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="108.0">Welcome back, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="111.0">Woo, looks like it worked!</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="115.0">Alright, back to work, guys</AddIRCMessage>
+</Instantly>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:H3l1x" />
+</Instantly>
+
+</ConditionalActions>

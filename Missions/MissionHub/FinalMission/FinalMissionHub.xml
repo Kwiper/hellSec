@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="finalMissionHub" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="getadmin" target="z3r0Comp"/>
+    <goal type="delay" time="10.0"/>
+    </goals>
+
+<nextMission IsSilent="false">Missions/MissionHub/FinalMission/FinalMissionM.xml</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Z3r0 Hour - Continuation</subject>
+<body>Hey, I see you've made progress.
+I found an IP that must be important on my end. That IP seems to be whitelisted though. See if you can find a way to disable the whitelist on your end.
+I'll link you to what I found.
+
+-Quartz </body>
+<attachments>
+<link comp="z3r0Gateway2"/>
+</attachments>
+</email>
+</mission>

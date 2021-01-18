@@ -1,0 +1,25 @@
+config playerComp h3l1xNode 0.2 $#%#$
+connect $#%#$
+startMusic $#%#$
+writel_silent Hey $#%#$
+delay 3 $#%#$
+writel_silent H3l1x here $#%#$
+delay 3 $#%#$
+writel_silent Z3r0 told me to help you out on this $#%#$
+delay 3 $#%#$
+writel_silent So here I am $#%#$
+delay 6 $#%#$
+writel_silent Looks like your x-server is gone. $#%#$
+delay 3 $#%#$
+writel_silent Now I dunno if you have other x-servers you downloaded $#%#$
+delay 3 $#%#$
+writel_silent But Imma make your life easier $#%#$
+delay 3 $#%#$
+writel_silent By linking you to one of my nodes $#%#$
+delay 3 $#%#$
+writel_silent So you can hack into it and snag that x-server for yourself $#%#$
+delay 3 $#%#$
+writel_silent Good luck $#%#$
+delay 1 $#%#$
+writel_silent 192.47.182.50 $#%#$
+disconnect $#%#$

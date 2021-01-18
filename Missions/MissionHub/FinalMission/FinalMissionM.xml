@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="finalMissionM" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="delay" time="30.0"/>
+</goals>
+
+<nextMission IsSilent="false">Missions/MissionHub/FinalMission/FinalMissionEnd.xml</nextMission>
+
+<email>
+<sender>Quartz</sender>
+<subject>Z3r0 Hour - Revelation</subject>
+<body>This is it...
+I knew there was something up. It looks like Z3r0's involved in this "Project M" or whatever it is. And it looks like Morpheus was involved in this too.
+We can't confront Z3r0 yet until we know what Project M is... We need to keep searching. We're almost there, I can feel it.
+</body>
+
+<attachments>
+</attachments>
+</email>
+</mission>

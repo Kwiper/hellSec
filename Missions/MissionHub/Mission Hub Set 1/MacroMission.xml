@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="macroMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="filedownload" target="macroPatent" file="eosDeviceScan.exe" path="bin"/>
+</goals>
+
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Identity Theft" >
+Read email to see info.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Next Step</subject>
+<body>Agents,
+Please return to hellSec A.S.A.P. I have an announcement to make.
+
+-Z3r0
+</body>
+
+<attachments>
+</attachments>
+
+</email>
+</mission>

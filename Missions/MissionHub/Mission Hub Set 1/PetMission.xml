@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="petMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+
+<goal type="filedeletion" target="petSecu" file="cagelock.dll" path="sys"/>
+</goals>
+
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Who Let the Dogs Out?" >
+There is a pet shop that treats its pets... somewhat unfairly. We want to teach it a lesson.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Who Let the Dogs Out?</subject>
+<body>Alright, here's the deal.
+There's a popular pet shop that's been gaining a lot of media attention lately. Basically, they've been treating their animals poorly.
+We decided to do something about it before anyone else.
+
+We want you to find your way into the pet shop's security system and find a way to shut it down.
+
+Good luck,
+-Z3r0
+</body>
+
+<attachments>
+<link comp="petComp" />
+</attachments>
+</email>
+</mission>

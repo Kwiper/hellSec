@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eastboroMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+
+ <goal type="filechange" target="eastboroComp" file="x-server.sys" path="sys" keyword="0" removal="true"/>
+  <goal type="filechange" target="eastboroComp" file="x-server.sys" path="sys" keyword="DICKS"/>
+ 
+</goals>
+
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Dickish Religion" >
+A church called the Eastboro Durtist Church has made headlines recently because of their bold statements and outlandish claims.
+We want you to mess with their website.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Dickish Religion</subject>
+<body>This is frankly one of the most ridiculous missions ever.
+There's this church called the Eastboro Durtist Church. It's infamous for making very... interesting statements. I'll let you see them for yourself.
+We want you to mess with their site just a bit. Replace every zero that appears in their x-server.sys file with "DICKS" exactly as it appears.
+
+Have fun,
+-Z3r0
+</body>
+
+<attachments>
+<link comp="eastboroComp" />
+<note title="Replace strings">Use the command replace to replace strings. Usage: replace "ORIGINAL TEXT" "REPLACEMENT TEXT"</note>
+</attachments>
+</email>
+</mission>
+

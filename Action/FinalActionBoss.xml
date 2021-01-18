@@ -1,0 +1,9 @@
+<ConditionalActions>
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/FlashHack.txt" SourceComp="z3r0Core" TargetComp="playerComp" RequireLogsOnSource="false"/>
+<StartScreenBleedEffect AlertTitle="STOP Z3R0" CompleteAction="Actions/FinalActionFail.xml" TotalDurationSeconds="100">Destroy Z3r0s system
+Delete everything relating to Project M
+Look for backups
+</StartScreenBleedEffect>
+</Instantly>
+</ConditionalActions>

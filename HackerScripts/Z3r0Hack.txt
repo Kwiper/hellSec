@@ -1,0 +1,21 @@
+config playerComp z3r0Core 0.2 $#%#$
+connect $#%#$
+stopMusic $#%#$
+clearTerminal$#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+delay 5 $#%#$
+write Sorry $#%#$
+delay 1 $#%#$
+write about $#%#$
+delay 1 $#%#$
+write this $#%#$
+delay 2 $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+delay 1 $#%#$
+delete /sys x-server.sys $#%#$
+disconnect $#%#$
+

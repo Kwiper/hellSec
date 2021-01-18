@@ -1,0 +1,21 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="1.0">Where's Quartz at, anyways</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="5.0">He's been noticeably absent lately</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="9.0">I don't know</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="12.0">After that whole Morpheus deal with #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="16.0">Didn't he run off somewhere?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="19.0">Oh yeah</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="23.0">Said he had to check something out</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="28.0">Still though</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="32.0">What could it be that's taking him so long to check out?</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="35.0">No clue</AddIRCMessage>
+</Instantly>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Morpheus4" />
+</Instantly>
+ 
+</ConditionalActions>

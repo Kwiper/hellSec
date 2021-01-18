@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="sslEndMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/SSLEndAction.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+    <sender>???</sender>
+    <subject>???</subject>
+    <body>I see you.</body>
+    <attachments>
+    </attachments>
+</email>
+</mission>

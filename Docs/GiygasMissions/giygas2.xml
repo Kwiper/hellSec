@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="giygas2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Giygas Mission 192">
+Discipes of Giygas,
+Your mission is as follows: 
+Break into the CSA to find the recipe for a secret serum that will bend any who oppose us to our will.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

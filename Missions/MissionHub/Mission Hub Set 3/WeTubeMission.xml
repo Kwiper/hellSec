@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="wetubeMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="clearfolder" target="wetubeFile" path="Uploads/Grumplestiltskin"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Action/WeTubeAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Unbroadcast Yourself" >
+A WeTuber by the name of Grumplestiltskin has some harrowing videos about the hacker community. We've even been mentioned ourselves. Delete all his videos.
+</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Unbroadcast Yourself</subject>
+<body>I would say we're a force for good some of the time.
+Sure, we mess people up a lot, but honestly, there are so many misconceptions about the hacker community. This Grumplestiltskin guy isn't helping our case either.
+He's posted a lot of videos talking about how hacker groups are ruining the world or some shit. He's even targeted us directly.
+Your mission is to infiltrate WeTube's system and delete every single video Grumplestiltskin has made. Every. Single. One. I'll link you to WeTube's web node.
+Good luck,
+-Z3r0</body>
+
+<attachments>
+<note title="Mission Details">Infiltrate WeTube's servers
+Find Grumplestiltskin's account
+Delete every single video of his</note>
+<link comp="wetubeWeb" />
+</attachments>
+</email>
+</mission>

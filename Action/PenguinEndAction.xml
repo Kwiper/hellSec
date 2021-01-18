@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addRank" FunctionValue="1" />
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="1.0">There really needs to be something to do between missions, yanno?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="4.0">Something to take a break</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="7.0">Like... some kind of game where you mindlessly click things for points</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="10.0">Like some kind of... point... clicker?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="13.0">Yeah, exactly</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="16.0">Someone get on that now!</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

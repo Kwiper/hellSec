@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="sslMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="fileupload" target="hellDrop" file="SSLTrojan.exe" path="home" destTarget="hellDrop" destPath="ftp/Uploads"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/SSLAction.xml</missionStart>
+<missionEnd val="1">addRank</missionEnd>
+<nextMission IsSilent="false">Missions/MissionHub/Mission Hub Set 2/SSLEndMission.xml</nextMission>
+
+<posting title="Trojan Horse" reqs="Trojan1,Trojan2,Trojan3" requiredRank="8" >
+I need you to do me a favour.</posting>
+
+<email>
+    <sender>Z3r0</sender>
+    <subject>Trojan Horse</subject>
+    <body>I need your help.
+You know the port crusher Quartz keeps asking me about? I'm having trouble getting it. Lots of trouble.
+My associate who owns this port crusher calls himself Morpheus. I need you to hack into Morpheus' system and find a way to get the port crusher.
+It's a program designed to crack the SSL port, or HTTPS. 
+Once you find it, upload it to the drop server.
+Be careful, Morpheus is not one to mess with.
+
+-Z3r0</body>
+
+<attachments>
+    <link comp="morpheusHub" />
+    </attachments>
+</email>
+</mission>

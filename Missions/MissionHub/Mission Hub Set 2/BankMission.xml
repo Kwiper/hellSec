@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bankMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="filedeletion" target="quantumProxy4" file="account.dat" path="home"/>
+    </goals>
+
+<missionEnd>loadConditionalActions:Action/BankEndAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Ghost in the Vault" reqs="Trojan1,Trojan2,Trojan3" requiredRank="8" >
+A bank has reported someone breaking into their system and stealing some data. We need you to track that data down and delete it.</posting>
+
+<email>
+<sender>Z3r0</sender>
+<subject>Ghost in the Vault</subject>
+<body>Here's the deal.
+The Commercial Bank of the UFA has reported someone exploiting their system and breaking in. They have discreetly asked us to investigate it.
+The hacker did well to cover his tracks, but I know someone who has the tools we need to help with that.
+Your mission is to find out who performed this hack, and navigate your way through their system to delete the account data they stole.
+The bank has agreed to provide us with access to the bank's admin password, to make your investigation easier.
+
+Good luck,
+-Z3r0
+</body>
+<attachments>
+<note title="Mission Details">
+Gather tools 
+Gain access to bank server 
+Find out who stole the account data 
+Track them down and delete the data</note>
+<link comp="bankComp" />
+<account comp="bankComp" user="admin" pass="capitalismrules" />
+<link comp="axolotlComp" />
+</attachments>
+</email>
+</mission>

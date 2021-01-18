@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="clockMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="filedownload" target="clockVault" file="Clock.exe" path="bin"/>
+</goals>
+
+<missionStart suppress="true">loadConditionalActions:Action/ClockAction.xml</missionStart>
+<missionEnd>playCustomSong:Music/HOME_-_If_I_m_Wrong.ogg</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>Time Masters</sender>
+<subject>Secret</subject>
+<body>This is a secret mission. Shhh</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

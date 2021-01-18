@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:Trojan1" />
+</Instantly>
+
+
+
+</ConditionalActions>

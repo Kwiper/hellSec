@@ -1,0 +1,23 @@
+<ConditionalActions>
+
+<Instantly>
+<RemoveMissionFromHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/MusicMission.xml" TargetComp="hellHub" />
+<RemoveMissionFromHubServer MissionFilepath="Missions/MissionHub/Mission Hub Set 3/MISMission.xml" TargetComp="hellHub" />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="5.0">@everyone</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="8.0">I have something to say.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="12.0">Quartz? What's up?</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="15.0">Is this about the thing you were checking out before?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="19.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="22.0">Z3r0.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="26.0">Care to explain something?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="29.0">!ATTACHMENT:link#%#Project M#%#19.27.192.10</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="36.0">What the hell...</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="40.0">Tell me, Z3r0</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="44.0">Did you start hellSec for the purpose of helping the world?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="48.0">Or as a cover to further your own plans</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="51.0">...</AddIRCMessage>
+
+</Instantly>
+
+</ConditionalActions>

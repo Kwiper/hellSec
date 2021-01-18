@@ -1,0 +1,43 @@
+config playerComp z3r0Core 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 5 $#%#$
+flash $#%#$
+disconnect $#%#$

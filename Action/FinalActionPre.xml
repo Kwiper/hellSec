@@ -1,0 +1,43 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="6"/>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="1.0">Yes.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="5.0">You're absolutely right.</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="9.0">Z3r0... what are you talking about?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="13.0">Matrix started as a means for us and the government to easily surveil the people</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="17.0">But then Morpheus and I realised...</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="20.0">It could be used for other purposes.</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="25.0">So the whole thing about creating trouble for the higher-ups</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="28.0">Helping people who need our help</AddIRCMessage>
+<AddIRCMessage Author="Bufflenut" TargetComp="hellIRC" Delay="32.0">That was all a lie?</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="35.0">Regrettably...</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="38.0">You know, it's a shame.</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="41.0">I almost didn't want to go through with it.</AddIRCMessage>
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="43.6">*** @Bufflenut HAS BEEN KICKED ***</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="48.0">But you guys forced my hand.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="51.0">Z3r0... what do you get out of this?</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="55.0">Accessing every computer in the world... This is pointless!</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="59.0">I'll tell you what's pointless</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="64.0">Living life without everything within your reach</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="68.0">There is no point to life without power</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="72.0">So that's it then</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="75.0">You're a power-hungry egomaniac</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="79.0">With no regard for the simplicities of life</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="82.0">Ha, don't even start</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="85.0">This entire job</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="88.0">It's all about taking control</AddIRCMessage>
+<AddIRCMessage Author="H3l1x" TargetComp="hellIRC" Delay="91.0">Yeah, but I'm not doing this to rule the world</AddIRCMessage>
+<AddIRCMessage Author="CONSOLE" TargetComp="hellIRC" Delay="95.0">*** @H3l1x HAS BEEN KICKED ***</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="100.0">Go on then</AddIRCMessage>
+<AddIRCMessage Author="Z3r0" TargetComp="hellIRC" Delay="105.0">There is no way you can stop me.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="108.0">You're wrong.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="112.0">#PLAYERNAME#, you take care of Z3r0.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="115.0">Destroy this computer and everything related to Project M on it.</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="117.0">GO!</AddIRCMessage>
+<AddIRCMessage Author="Quartz" TargetComp="hellIRC" Delay="118.6">!ATTACHMENT:link#%#Z3r0 Server Node#%#29.192.102.51</AddIRCMessage>
+</Instantly>
+</ConditionalActions>
+
+
+

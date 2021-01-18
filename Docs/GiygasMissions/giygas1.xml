@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="giygas1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Giygas Mission 183">
+Disciples of Giygas,
+Your mission is as follows: 
+Recruit more members into our Order. They must learn the truth of the infinite darkness that will soon plague this Earth.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

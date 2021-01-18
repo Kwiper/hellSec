@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="finalMissionPre" activeCheck="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="delay" time="118.6"/>
+</goals>
+<!--44 seconds
+117 seconds-->
+
+<missionStart>loadConditionalActions:Action/FinalActionPre.xml</missionStart>
+<nextMission IsSilent="true">Missions/MissionHub/FinalMission/FinalMissionBoss.xml</nextMission>
+
+<email>
+<sender>NONE</sender>
+<subject>NONE</subject>
+<body>NONE</body>
+<attachments>
+</attachments>
+</email>
+</mission>

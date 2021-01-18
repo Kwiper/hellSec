@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="giygas4">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Giygas Mission 231">
+Acolytes of Giygas,
+Your mission is as follows:
+Using the resources we have gathered, it is time to send the United Federation of America into the eternal darkness that was once prophecised.
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

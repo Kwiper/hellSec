@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="h3l1xMissionEnd" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+    </goals>
+
+
+<missionEnd>loadConditionalActions:Action/H3l1xAction.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H3l1x</sender>
+<subject>Teamwork End</subject>
+<body>Awesome!
+Let's head back to HQ to tell Z3r0 about this...
+
+-H3l1x
+</body>
+
+<attachments>
+</attachments>
+</email>
+</mission>

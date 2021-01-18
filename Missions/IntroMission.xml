@@ -1,0 +1,35 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<mission id="introMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+
+    <goal type="filedownload" target="hellRepo" file="SSHCrack.exe" path="bin"/>
+    <goal type="filedownload" target="hellRepo" file="FTPSprint.exe" path="bin"/>
+
+</goals>
+
+<missionStart suppress="true">setFaction:hellSec</missionStart>
+<nextMission IsSilent="false">Missions/WelcomeMission.xml</nextMission>
+
+<email>
+    <sender>Z3r0</sender>
+    <subject>Invitation</subject>
+    <body>Hello, there.
+My name is Z3r0. I help run the hacking collective known as hellSec. 
+hellSec's mantra is to create chaos for people. But we aren't all bad, we help out those who ask us to, as well.
+
+We at hellSec have chosen you to take part in our little cyber-crusade. 
+
+To get initiated, you simply have to hack into the hellSec Repository and download any programs you find.
+
+Reply to this email once you've downloaded the programs.
+
+-Z3r0
+</body>
+
+    <attachments>
+    <link comp="hellRepo" />
+    </attachments>
+    
+</email>
+
+</mission>
